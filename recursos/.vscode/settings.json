@@ -1,0 +1,47 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "files.exclude": {
+    "**/*.log": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "files.associations": {
+    "*.csproj": "xml",
+    "*.sln": "xml"
+  },
+  "dotnet.defaultSolution": "PortalEmpleo.sln",
+  "dotnet.solutionExplorer.defaultSolution": "PortalEmpleo.sln",
+  "csharp.inlayHints.csharp_nullableReferenceTypes": true,
+  "csharp.inlayHints.csharp_indentBlockContents": true,
+  "csharp.inlayHints.csharp_spaceAfterCast": true,
+  "csharp.formatting.enable": true,
+  "csharp.suppressDotnetRestoreWarning": true,
+  "github.copilot.enable": {
+    "*": true,
+    "csharp": true,
+    "markdown": true,
+    "yaml": true,
+    "json": true
+  },
+  "github.copilot. chat.editing": true,
+  "github.copilot.chat.balloonRecommendations": true,
+  "chat.useAgentSkills": true,
+  "chat.agentSkills": {
+    "@backend-dev": {
+      "name": "Backend Developer",
+      "description": "Specializes in ASP.NET Core, controllers, services, and business logic"
+    },
+    "@data-dev": {
+      "name": "Data Developer",
+      "description": "Specializes in Entity Framework Core, repositories, and data models"
+    },
+    "@test-dev": {
+      "name": "Test Developer",
+      "description": "Specializes in xUnit, Moq, and FluentAssertions tests"
+    }
+  }
+}

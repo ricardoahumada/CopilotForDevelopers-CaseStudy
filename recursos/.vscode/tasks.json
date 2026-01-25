@@ -1,0 +1,101 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "SDD: Constitution",
+      "type": "shell",
+      "command": "Copilot prompt: /speckit.constitution Crear constitución del proyecto",
+      "description": "Generar .specify/memory/constitution.md",
+      "problemMatcher": []
+    },
+    {
+      "label": "SDD: Specify Auth",
+      "type": "shell", 
+      "command": "Copilot prompt: /speckit.specify Módulo de autenticación",
+      "description": "Generar specs/001-auth/spec.md",
+      "problemMatcher": []
+    },
+    {
+      "label": "SDD: Specify Jobs",
+      "type": "shell",
+      "command": "Copilot prompt: /speckit.specify Módulo de ofertas de empleo",
+      "description": "Generar specs/002-jobs/spec.md",
+      "problemMatcher": []
+    },
+    {
+      "label": "SDD: Specify Applications",
+      "type": "shell",
+      "command": "Copilot prompt: /speckit.specify Módulo de postulaciones",
+      "description": "Generar specs/003-applications/spec.md",
+      "problemMatcher": []
+    },
+    {
+      "label": "SDD: Plan Auth",
+      "type": "shell",
+      "command": "Copilot prompt: /speckit.plan Plan técnico autenticación",
+      "description": "Generar specs/001-auth/plan.md",
+      "problemMatcher": []
+    },
+    {
+      "label": "SDD: Plan Jobs",
+      "type": "shell",
+      "command": "Copilot prompt: /speckit.plan Plan técnico ofertas",
+      "description": "Generar specs/002-jobs/plan.md",
+      "problemMatcher": []
+    },
+    {
+      "label": "SDD: Plan Applications",
+      "type": "shell",
+      "command": "Copilot prompt: /speckit.plan Plan técnico postulaciones",
+      "description": "Generar specs/003-applications/plan.md",
+      "problemMatcher": []
+    },
+    {
+      "label": "Build Solution",
+      "type": "shell",
+      "command": "dotnet build",
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "Run Tests",
+      "type": "shell",
+      "command": "dotnet test --no-build",
+      "group": "test",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "Restore & Build",
+      "type": "shell",
+      "command": "dotnet restore && dotnet build",
+      "group": "build",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "Format Code",
+      "type": "shell",
+      "command": "dotnet format",
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "label": "Analyze Solution",
+      "type": "shell",
+      "command": "dotnet analyze",
+      "presentation": {
+        "reveal": "silent"
+      }
+    }
+  ],
+  "problemMatchers": []
+}
