@@ -1,0 +1,121 @@
+{
+  "$schema": "https://raw.githubusercontent.com/agentskills/agentskills/main/skills-ref/schemas/skill-input.json",
+  "description": "Template for exporting tasks to Azure DevOps Boards",
+  "type": "object",
+  "required": ["organization", "project", "workItemType", "tasks"],
+  "properties": {
+    "organization": {
+      "type": "string",
+      "description": "Azure DevOps organization name",
+      "examples": ["mycompany", "fabrikam-fiber"]
+    },
+    "project": {
+      "type": "string",
+      "description": "Project name or ID",
+      "examples": ["PortalEmpleo", "MyProject"]
+    },
+    "workItemType": {
+      "type": "string",
+      "description": "Type of work item to create",
+      "enum": ["Task", "User Story", "Bug"],
+      "default": "Task"
+    },
+    "tasks": {
+      "type": "array",
+      "description": "List of tasks to export",
+      "items": {
+        "$ref": "#/$defs/task"
+      }
+    },
+    "options": {
+      "type": "object",
+      "description": "Export options",
+      "properties": {
+        "priority": {
+          "type": "integer",
+          "description": "Default priority for all tasks",
+          "minimum": 1,
+          "maximum": 4,
+          "default": 2
+        },
+        "tags": {
+          "type": "array",
+          "description": "Default tags for all tasks",
+          "items": {
+            "type": "string"
+          }
+        },
+        "dryRun": {
+          "type": "boolean",
+          "description": "Preview without creating work items",
+          "default": false
+        }
+      }
+    }
+  },
+  "$defs": {
+    "task": {
+      "type": "object",
+      "required": ["id", "title"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Local task ID (e.g., T001)"
+        },
+        "title": {
+          "type": "string",
+          "description": "Task title"
+        },
+        "description": {
+          "type": "string",
+          "description": "Task description"
+        },
+        "hours": {
+          "type": "number",
+          "description": "Estimated hours"
+        },
+        "priority": {
+          "type": "integer",
+          "description": "Task-specific priority (1=High, 2=Medium, 3=Low)"
+        },
+        "tags": {
+          "type": "array",
+          "description": "Task-specific tags",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "description": "Export tasks from SDD specification",
+      "value": {
+        "organization": "mycompany",
+        "project": "PortalEmpleo",
+        "workItemType": "Task",
+        "tasks": [
+          {
+            "id": "T001",
+            "title": "Create Attachment entity",
+            "description": "Create Attachment class with Guid, TaskId properties",
+            "hours": 1,
+            "tags": ["domain"]
+          },
+          {
+            "id": "T010",
+            "title": "Create AttachmentsDbContext",
+            "description": "Create EF Core DbContext for attachments",
+            "hours": 2,
+            "tags": ["infrastructure"]
+          }
+        ],
+        "options": {
+          "priority": 2,
+          "tags": ["sprint-1"]
+        }
+      }
+    }
+  ]
+}
