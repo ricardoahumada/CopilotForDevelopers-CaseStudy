@@ -27,21 +27,7 @@
     "yaml": true,
     "json": true
   },
-  "github.copilot. chat.editing": true,
+  "github.copilot.chat.editing": true,
   "github.copilot.chat.balloonRecommendations": true,
-  "chat.useAgentSkills": true,
-  "chat.agentSkills": {
-    "@backend-dev": {
-      "name": "Backend Developer",
-      "description": "Specializes in ASP.NET Core, controllers, services, and business logic"
-    },
-    "@data-dev": {
-      "name": "Data Developer",
-      "description": "Specializes in Entity Framework Core, repositories, and data models"
-    },
-    "@test-dev": {
-      "name": "Test Developer",
-      "description": "Specializes in xUnit, Moq, and FluentAssertions tests"
-    }
-  }
+  "chat.useAgentSkills": true
 }

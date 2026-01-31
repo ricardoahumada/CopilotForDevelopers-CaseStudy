@@ -1,0 +1,75 @@
+# .copilotignore - Exclusiones para GitHub Copilot
+
+# Archivos de configuración sensibles
+**/appsettings.*.json
+!**/appsettings.json
+!**/appsettings.Development.json
+
+**/.env
+**/.env.*
+!.env.example
+
+**/connectionStrings.json
+**/secrets/
+**/credentials/
+**/*.key
+**/*.pem
+**/*.pfx
+**/*.cert
+
+# Archivos de build y obj
+**/[Dd]ebug/
+**/[Rr]elease/
+**/[Bb]in/
+**/[Oo]bj/
+**/*.dll
+**/*.pdb
+**/*.exe
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.vsuser
+
+# Archivos de control de versiones
+.git/
+.gitignore
+.gitattributes
+
+# Archivos de documentación que no deben ser procesados
+**/CHANGELOG.md
+**/LICENSE
+**/LICENSE.md
+**/README.md
+
+# Archivos de test que no deben generar código
+**/test-results/
+**/coverage/
+
+# Archivos de Docker
+**/Dockerfile*
+**/.dockerignore
+
+# Archivos de cache
+**/node_modules/
+**/.cache/
+**/tmp/
+**/temp/
+
+# Archivos de base de datos
+**/*.db
+**/*.sqlite
+**/*.mdf
+**/*.ldf
+
+# Archivos de logging
+**/*.log
+**/logs/
+
+# Archivos de proyectos antiguos o deprecados
+**/bak/
+**/old/
+**/deprecated/
