@@ -1,5 +1,6 @@
-# Ejecutar plan después de especificar
-/speckit.plan Crear plan técnico para el módulo de gestión de usuario.
+/speckit.plan
+Crear plan técnico para el módulo de gestión de usuarios.
 
 Referencia: 
-- docs/01.caso-practico.md - secciones 3, 4 para detalles de arquitectura.
+- specs\001-user-auth
+- docs/01.caso-practico.md - sección 2.1 para requerimiento funcionales y  secciones 3, 4 para detalles de arquitectura.
