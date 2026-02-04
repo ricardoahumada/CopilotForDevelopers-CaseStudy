@@ -1,0 +1,1001 @@
+job_id,title,salary,contract_type,job_level,industry,company_size,location,has_remote,skills_count,experience_years,applications_received,days_to_hire
+1,Frontend Developer,70106,Full-Time,Senior,Media,Large,Buenos Aires,False,8,1,119,43
+2,DevOps Engineer,78932,Full-Time,Senior,Technology,Enterprise,Barcelona,True,10,6,190,10
+3,Business Analyst,173172,Contract,Junior,Manufacturing,Enterprise,Sevilla,True,11,8,112,21
+4,Systems Administrator,82091,Full-Time,Lead,Education,Large,Sevilla,True,6,11,48,28
+5,Full Stack Developer,46949,Full-Time,Junior,Education,Large,Madrid,False,3,2,82,46
+6,ML Engineer,62744,Full-Time,Mid,Manufacturing,SME,Santiago,True,10,5,166,36
+7,Business Analyst,133319,Full-Time,Junior,Healthcare,Large,Lima,False,4,8,29,32
+8,UX Designer,117193,Full-Time,Mid,Manufacturing,Large,Barcelona,False,3,1,136,37
+9,Frontend Developer,61187,Full-Time,Mid,Media,SME,Santiago,True,9,6,196,32
+10,QA Engineer,163311,Contract,Mid,Finance,Large,Mexico City,False,11,4,120,29
+11,Product Manager,149454,Full-Time,Junior,Education,Large,Bilbao,False,11,4,123,27
+12,Frontend Developer,39489,Full-Time,Senior,Telecommunications,SME,Mexico City,False,5,10,148,49
+13,Full Stack Developer,86877,Full-Time,Junior,Media,Enterprise,Bilbao,True,8,6,14,20
+14,Full Stack Developer,74922,Part-Time,Senior,Media,Startup,Buenos Aires,True,9,8,113,32
+15,ML Engineer,119074,Full-Time,Lead,Media,SME,Madrid,False,11,3,198,30
+16,UX Designer,62131,Full-Time,Mid,Consulting,Startup,Mexico City,False,4,8,39,58
+17,DevOps Engineer,140765,Full-Time,Mid,Media,Large,Mexico City,False,10,14,138,26
+18,ML Engineer,98963,Internship,Mid,Education,Large,Madrid,False,9,13,23,47
+19,ML Engineer,131884,Full-Time,Junior,Finance,SME,Sevilla,False,6,12,191,43
+20,Product Manager,150917,Full-Time,Mid,Finance,Large,Hybrid,False,4,10,185,28
+21,Backend Developer,49285,Full-Time,Senior,Media,SME,Bilbao,True,10,9,12,29
+22,UX Designer,62626,Full-Time,Senior,Technology,Large,Buenos Aires,False,7,8,14,35
+23,Data Scientist,44198,Full-Time,Junior,Education,Large,Remote,False,8,12,199,46
+24,ML Engineer,175830,Full-Time,Lead,Education,SME,Mexico City,False,9,3,170,23
+25,Data Analyst,40254,Contract,Mid,E-commerce,Enterprise,Santiago,False,3,2,33,41
+26,Technical Lead,69238,Part-Time,Lead,Retail,SME,Bogota,True,10,1,19,36
+27,Backend Developer,26252,Full-Time,Senior,Healthcare,Startup,Lima,False,6,8,91,45
+28,Data Scientist,64764,Contract,Senior,Healthcare,Large,Bilbao,False,11,11,27,30
+29,Data Analyst,102709,Full-Time,Junior,Technology,Enterprise,Buenos Aires,True,3,1,50,21
+30,UX Designer,78682,Full-Time,Junior,Healthcare,SME,Sevilla,False,4,5,32,39
+31,Software Engineer,84494,Full-Time,Director,E-commerce,Startup,Hybrid,True,8,4,30,28
+32,Data Analyst,106317,Internship,Mid,Manufacturing,SME,Mexico City,True,3,13,14,56
+33,QA Engineer,90215,Full-Time,Director,Healthcare,Large,Madrid,True,6,4,179,21
+34,Backend Developer,103587,Full-Time,Mid,Education,SME,Lima,True,10,3,8,23
+35,Business Analyst,31949,Full-Time,Junior,Manufacturing,Large,Buenos Aires,False,7,5,59,45
+36,Data Analyst,80393,Full-Time,Junior,Healthcare,Enterprise,Madrid,False,11,4,70,29
+37,Product Owner,163013,Full-Time,Mid,Education,Large,Buenos Aires,False,8,10,71,38
+38,Software Engineer,50934,Full-Time,Lead,Education,SME,Bilbao,False,3,3,139,53
+39,Full Stack Developer,179458,Full-Time,Mid,Media,SME,Lima,True,8,12,59,31
+40,Full Stack Developer,100745,Full-Time,Mid,Finance,Startup,Barcelona,True,8,8,35,24
+41,Systems Administrator,119456,Full-Time,Mid,Technology,Enterprise,Lima,False,8,12,78,22
+42,QA Engineer,78413,Part-Time,Junior,E-commerce,SME,Buenos Aires,True,10,5,23,38
+43,Data Analyst,122239,Full-Time,Mid,Consulting,SME,Madrid,False,8,10,160,25
+44,Data Analyst,67318,Full-Time,Junior,Retail,Large,Hybrid,False,7,9,85,41
+45,Systems Administrator,95390,Part-Time,Lead,Healthcare,SME,Buenos Aires,False,4,9,160,49
+46,Technical Lead,68088,Full-Time,Mid,Healthcare,Large,Valencia,False,6,12,151,38
+47,Technical Lead,128196,Full-Time,Mid,Manufacturing,Startup,Bilbao,True,7,9,91,33
+48,Systems Administrator,80479,Internship,Mid,Manufacturing,Enterprise,Lima,True,6,12,24,31
+49,Technical Lead,44963,Full-Time,Mid,Retail,Enterprise,Valencia,False,4,2,17,50
+50,Product Manager,80123,Full-Time,Director,Healthcare,Large,Barcelona,True,9,9,81,9
+51,Data Analyst,150911,Full-Time,Mid,Telecommunications,Enterprise,Madrid,False,4,5,47,30
+52,Frontend Developer,127468,Full-Time,Junior,E-commerce,SME,Valencia,True,3,13,143,31
+53,DevOps Engineer,98477,Full-Time,Senior,Healthcare,Large,Bogota,False,7,0,180,35
+54,Product Owner,39388,Full-Time,Junior,Finance,Large,Buenos Aires,False,3,4,147,39
+55,Product Manager,30569,Full-Time,Junior,Retail,Large,Barcelona,False,3,9,149,67
+56,UX Designer,94836,Full-Time,Director,Telecommunications,SME,Barcelona,True,3,5,186,34
+57,Product Manager,129573,Internship,Senior,E-commerce,SME,Sevilla,True,8,14,54,33
+58,Frontend Developer,168087,Part-Time,Director,Healthcare,Startup,Remote,False,11,10,32,28
+59,UX Designer,70002,Full-Time,Mid,Consulting,SME,Sevilla,True,3,7,8,36
+60,Product Owner,162326,Full-Time,Mid,Media,SME,Hybrid,False,7,10,26,33
+61,Frontend Developer,173216,Part-Time,Junior,Finance,Large,Buenos Aires,False,11,14,123,35
+62,Data Scientist,162162,Full-Time,Mid,Consulting,SME,Barcelona,False,11,14,105,27
+63,DevOps Engineer,167709,Full-Time,Lead,Manufacturing,Startup,Lima,False,3,8,43,50
+64,Product Owner,178487,Internship,Mid,Manufacturing,Large,Bilbao,True,10,10,38,34
+65,Data Analyst,49071,Full-Time,Lead,Healthcare,Large,Mexico City,False,3,2,101,43
+66,Technical Lead,83243,Part-Time,Senior,Manufacturing,Enterprise,Hybrid,False,10,1,48,27
+67,Data Scientist,150827,Internship,Junior,Finance,Large,Madrid,True,3,12,174,45
+68,QA Engineer,133215,Full-Time,Mid,E-commerce,SME,Madrid,False,7,3,44,27
+69,Product Owner,126570,Full-Time,Senior,Education,Enterprise,Mexico City,False,10,7,101,22
+70,QA Engineer,94724,Full-Time,Mid,Technology,Large,Valencia,True,8,10,144,30
+71,UX Designer,140359,Contract,Lead,Retail,Startup,Barcelona,True,11,7,134,40
+72,Data Scientist,100697,Contract,Mid,E-commerce,Large,Madrid,False,3,2,160,43
+73,DevOps Engineer,53732,Contract,Junior,Education,Enterprise,Madrid,True,11,3,78,25
+74,Data Analyst,146465,Full-Time,Senior,Telecommunications,SME,Bogota,False,3,2,90,37
+75,Systems Administrator,167386,Contract,Director,Finance,SME,Barcelona,False,5,9,94,32
+76,Data Analyst,82108,Internship,Junior,Consulting,Startup,Bilbao,True,3,1,71,55
+77,Frontend Developer,136195,Full-Time,Lead,Education,SME,Santiago,True,5,3,80,23
+78,Data Analyst,128081,Internship,Mid,Finance,SME,Bilbao,False,4,5,96,52
+79,Business Analyst,61668,Contract,Senior,Media,Large,Madrid,True,4,10,14,36
+80,ML Engineer,48061,Part-Time,Senior,Consulting,Startup,Bogota,False,11,13,90,40
+81,Systems Administrator,104252,Full-Time,Mid,Manufacturing,Enterprise,Madrid,True,10,10,106,19
+82,Product Manager,64749,Full-Time,Mid,Manufacturing,Large,Bogota,False,3,4,189,50
+83,Technical Lead,155560,Full-Time,Senior,Consulting,Large,Lima,False,6,2,112,18
+84,Software Engineer,129680,Full-Time,Mid,Telecommunications,Enterprise,Bilbao,True,3,1,169,26
+85,DevOps Engineer,172979,Full-Time,Senior,Telecommunications,Startup,Buenos Aires,True,3,8,95,34
+86,Data Scientist,174849,Contract,Junior,Telecommunications,Large,Buenos Aires,True,6,14,196,34
+87,ML Engineer,76745,Internship,Lead,Education,Large,Sevilla,True,4,0,83,42
+88,DevOps Engineer,133464,Contract,Senior,Retail,Enterprise,Lima,False,5,8,90,28
+89,Data Scientist,116865,Full-Time,Lead,Education,Large,Lima,False,11,0,111,19
+90,Technical Lead,137428,Full-Time,Junior,Healthcare,SME,Sevilla,True,4,14,172,31
+91,Backend Developer,48624,Full-Time,Senior,Technology,Enterprise,Santiago,False,6,13,105,29
+92,Backend Developer,48321,Part-Time,Senior,Consulting,Startup,Remote,False,3,6,112,52
+93,QA Engineer,166560,Contract,Mid,E-commerce,Enterprise,Hybrid,True,4,5,64,20
+94,DevOps Engineer,47574,Internship,Mid,Technology,Enterprise,Buenos Aires,True,7,6,52,30
+95,Backend Developer,161312,Full-Time,Junior,Media,SME,Bilbao,False,3,14,121,44
+96,Business Analyst,166550,Internship,Senior,Education,Large,Valencia,False,9,2,110,33
+97,Systems Administrator,175334,Contract,Mid,Education,Startup,Hybrid,False,6,13,151,49
+98,Data Scientist,143831,Full-Time,Junior,Finance,SME,Barcelona,False,8,2,37,30
+99,QA Engineer,160504,Contract,Senior,Technology,Large,Santiago,True,10,12,48,21
+100,Data Analyst,120257,Full-Time,Mid,Finance,Large,Valencia,False,8,10,169,29
+101,Data Scientist,89291,Full-Time,Junior,E-commerce,Enterprise,Valencia,False,4,0,116,35
+102,QA Engineer,152600,Full-Time,Director,Finance,Large,Sevilla,False,3,3,93,25
+103,Technical Lead,75428,Full-Time,Lead,Technology,Large,Hybrid,True,10,11,40,10
+104,DevOps Engineer,156374,Full-Time,Mid,Consulting,Enterprise,Madrid,True,10,1,85,16
+105,Technical Lead,156127,Full-Time,Junior,Media,Enterprise,Santiago,True,11,9,92,10
+106,Systems Administrator,136317,Full-Time,Senior,Education,Startup,Madrid,False,8,7,153,39
+107,Systems Administrator,164789,Full-Time,Mid,E-commerce,Enterprise,Barcelona,True,3,2,134,20
+108,ML Engineer,152449,Full-Time,Mid,Education,Startup,Bilbao,False,11,6,35,34
+109,Technical Lead,53699,Full-Time,Mid,Healthcare,Enterprise,Buenos Aires,True,5,6,112,33
+110,Frontend Developer,98686,Full-Time,Mid,Media,SME,Valencia,True,8,11,34,24
+111,Data Analyst,92661,Full-Time,Senior,Retail,Startup,Valencia,False,11,8,176,49
+112,Product Owner,69247,Full-Time,Mid,Finance,SME,Madrid,False,5,5,16,43
+113,Technical Lead,172820,Full-Time,Senior,Manufacturing,Large,Valencia,False,7,0,55,31
+114,ML Engineer,130113,Full-Time,Lead,Technology,SME,Hybrid,True,7,7,125,21
+115,UX Designer,29621,Full-Time,Mid,Education,Startup,Remote,False,9,0,181,39
+116,Business Analyst,171106,Contract,Senior,Finance,Large,Sevilla,True,6,2,156,14
+117,Data Scientist,161198,Full-Time,Lead,E-commerce,Enterprise,Santiago,True,6,10,156,9
+118,Systems Administrator,161194,Full-Time,Mid,Education,SME,Remote,False,9,4,192,34
+119,UX Designer,43030,Internship,Mid,Retail,SME,Madrid,True,11,7,143,51
+120,ML Engineer,107838,Contract,Senior,Media,SME,Bogota,True,6,8,17,43
+121,QA Engineer,109717,Internship,Senior,Media,Startup,Remote,False,6,14,95,54
+122,Product Owner,63638,Contract,Lead,Education,Enterprise,Madrid,False,8,6,78,34
+123,Data Analyst,92067,Full-Time,Mid,E-commerce,Enterprise,Barcelona,False,8,8,196,22
+124,Data Analyst,143033,Full-Time,Director,Media,Large,Hybrid,True,9,10,24,6
+125,Data Analyst,130977,Full-Time,Junior,Media,SME,Buenos Aires,True,3,2,76,34
+126,Business Analyst,113869,Full-Time,Junior,Retail,Large,Madrid,True,5,12,77,34
+127,Product Owner,130186,Full-Time,Senior,Technology,Large,Valencia,False,11,4,75,25
+128,Business Analyst,59674,Full-Time,Mid,E-commerce,Enterprise,Bilbao,False,8,9,82,30
+129,Systems Administrator,71271,Full-Time,Mid,E-commerce,Large,Mexico City,False,8,7,32,32
+130,Business Analyst,98688,Part-Time,Mid,Consulting,Large,Bogota,True,7,11,134,25
+131,Software Engineer,136076,Part-Time,Mid,Consulting,Large,Hybrid,False,5,0,125,25
+132,Product Owner,166339,Full-Time,Junior,Media,SME,Valencia,True,7,7,47,19
+133,Frontend Developer,26062,Contract,Director,Manufacturing,Enterprise,Buenos Aires,False,3,6,12,38
+134,Product Owner,75448,Full-Time,Mid,Consulting,Large,Buenos Aires,False,5,0,17,35
+135,ML Engineer,120462,Contract,Senior,Media,Large,Sevilla,False,6,12,115,39
+136,Software Engineer,162301,Full-Time,Senior,Telecommunications,SME,Barcelona,False,7,12,39,35
+137,Data Analyst,72915,Internship,Lead,Healthcare,Large,Hybrid,False,11,9,27,40
+138,ML Engineer,29632,Part-Time,Junior,Healthcare,Large,Lima,False,6,11,50,46
+139,ML Engineer,129592,Full-Time,Lead,E-commerce,SME,Buenos Aires,False,5,9,19,38
+140,Systems Administrator,159668,Full-Time,Mid,Manufacturing,Startup,Santiago,True,3,14,134,37
+141,Full Stack Developer,134779,Full-Time,Senior,Retail,Large,Barcelona,False,8,11,65,35
+142,Product Manager,162240,Full-Time,Senior,Technology,Large,Buenos Aires,True,9,5,119,5
+143,Software Engineer,133099,Full-Time,Lead,Consulting,Large,Mexico City,False,10,0,68,14
+144,ML Engineer,32561,Full-Time,Mid,Telecommunications,SME,Buenos Aires,False,3,1,56,58
+145,Product Manager,107152,Full-Time,Senior,Media,Large,Hybrid,False,6,4,168,32
+146,Product Manager,150036,Part-Time,Mid,Manufacturing,Startup,Santiago,True,7,1,199,38
+147,Software Engineer,149049,Internship,Senior,E-commerce,SME,Sevilla,True,4,13,73,40
+148,Full Stack Developer,51734,Full-Time,Director,Consulting,SME,Bogota,False,3,9,71,49
+149,UX Designer,162443,Full-Time,Mid,Manufacturing,SME,Barcelona,False,10,0,179,32
+150,QA Engineer,51069,Full-Time,Director,Consulting,SME,Sevilla,False,8,5,87,37
+151,Frontend Developer,37910,Part-Time,Junior,Technology,SME,Sevilla,True,7,7,6,43
+152,QA Engineer,98479,Full-Time,Junior,Technology,Startup,Bilbao,False,11,7,176,24
+153,Product Owner,106264,Internship,Junior,Retail,SME,Bogota,False,4,12,196,53
+154,Data Analyst,48275,Contract,Mid,Healthcare,Large,Buenos Aires,True,10,12,82,32
+155,Frontend Developer,97274,Full-Time,Senior,Finance,Large,Bogota,True,11,7,32,9
+156,Product Owner,125776,Full-Time,Junior,Finance,SME,Santiago,False,3,10,58,43
+157,ML Engineer,73447,Contract,Junior,Consulting,Enterprise,Sevilla,False,9,5,71,33
+158,Data Analyst,151394,Contract,Lead,Retail,Startup,Bogota,False,10,10,168,45
+159,Data Scientist,100703,Full-Time,Lead,Finance,Large,Barcelona,False,5,2,106,22
+160,Software Engineer,101090,Full-Time,Lead,E-commerce,Startup,Barcelona,False,6,0,124,40
+161,Frontend Developer,42260,Contract,Lead,Finance,Startup,Buenos Aires,False,5,1,195,47
+162,Frontend Developer,137581,Full-Time,Senior,Education,Large,Valencia,True,9,4,157,15
+163,Technical Lead,28812,Internship,Junior,Media,Large,Madrid,True,11,12,52,36
+164,ML Engineer,141148,Full-Time,Mid,Retail,Enterprise,Mexico City,False,5,9,171,33
+165,UX Designer,141421,Full-Time,Senior,E-commerce,Large,Buenos Aires,False,8,4,51,26
+166,Product Manager,26605,Contract,Mid,Manufacturing,Enterprise,Bilbao,False,10,9,25,40
+167,Data Analyst,97303,Full-Time,Senior,E-commerce,Startup,Hybrid,False,8,13,162,37
+168,ML Engineer,101125,Full-Time,Junior,Healthcare,Startup,Santiago,True,4,0,96,39
+169,Backend Developer,169990,Full-Time,Mid,Manufacturing,Startup,Lima,False,9,0,163,39
+170,Full Stack Developer,149040,Full-Time,Mid,Telecommunications,SME,Barcelona,True,4,14,125,25
+171,Product Manager,169118,Full-Time,Senior,Media,Large,Santiago,True,4,8,120,21
+172,Software Engineer,29324,Full-Time,Senior,Media,Large,Lima,False,4,1,158,47
+173,Product Manager,101323,Full-Time,Senior,Media,Startup,Santiago,False,3,6,154,51
+174,UX Designer,34111,Contract,Junior,Media,Enterprise,Mexico City,False,3,9,153,41
+175,Systems Administrator,41389,Full-Time,Junior,Consulting,Enterprise,Sevilla,True,9,3,5,19
+176,Technical Lead,147177,Full-Time,Lead,Media,SME,Madrid,False,7,6,169,28
+177,Product Manager,66427,Full-Time,Senior,Media,Startup,Bilbao,True,5,7,81,40
+178,Software Engineer,147883,Internship,Junior,Media,SME,Sevilla,True,3,4,89,37
+179,UX Designer,156189,Contract,Lead,Retail,Startup,Lima,False,8,12,50,37
+180,QA Engineer,150808,Full-Time,Mid,Consulting,Startup,Valencia,False,3,11,141,35
+181,Frontend Developer,137221,Full-Time,Mid,Technology,Large,Hybrid,False,11,11,149,23
+182,Systems Administrator,38234,Full-Time,Junior,E-commerce,SME,Hybrid,True,4,0,51,41
+183,Technical Lead,78441,Part-Time,Senior,E-commerce,SME,Valencia,False,3,3,63,44
+184,Frontend Developer,25846,Contract,Senior,Manufacturing,Enterprise,Sevilla,True,9,9,58,26
+185,Full Stack Developer,35954,Part-Time,Mid,Retail,Large,Lima,False,8,2,90,46
+186,Product Owner,104239,Contract,Lead,Education,Enterprise,Hybrid,True,8,9,16,18
+187,Systems Administrator,71514,Contract,Mid,E-commerce,Startup,Bilbao,True,7,14,196,46
+188,Systems Administrator,113236,Full-Time,Mid,Finance,SME,Valencia,False,6,11,10,39
+189,QA Engineer,122579,Full-Time,Junior,Education,Large,Buenos Aires,False,6,4,57,35
+190,QA Engineer,162541,Full-Time,Mid,Media,Startup,Mexico City,True,5,9,148,35
+191,Data Analyst,67101,Full-Time,Junior,Media,Startup,Valencia,True,10,12,94,43
+192,Business Analyst,89323,Contract,Senior,Consulting,Large,Bogota,False,9,9,9,27
+193,Product Manager,116922,Full-Time,Lead,Education,Large,Madrid,True,11,12,77,10
+194,Systems Administrator,152534,Full-Time,Mid,Finance,SME,Madrid,True,3,5,178,18
+195,Frontend Developer,92584,Full-Time,Mid,Consulting,Large,Sevilla,True,9,1,18,27
+196,Software Engineer,129537,Full-Time,Junior,Manufacturing,SME,Sevilla,True,6,6,176,37
+197,DevOps Engineer,103477,Full-Time,Mid,Education,Startup,Valencia,False,9,12,195,44
+198,Business Analyst,67533,Full-Time,Mid,Retail,SME,Buenos Aires,False,3,2,110,49
+199,DevOps Engineer,26828,Full-Time,Senior,Media,SME,Valencia,False,7,14,56,38
+200,Technical Lead,26917,Full-Time,Junior,Media,Startup,Barcelona,False,5,0,120,52
+201,UX Designer,45618,Full-Time,Senior,Healthcare,Enterprise,Valencia,False,7,9,30,24
+202,Frontend Developer,57254,Full-Time,Lead,Consulting,Large,Hybrid,True,6,2,57,30
+203,Frontend Developer,130292,Full-Time,Mid,Technology,Large,Bilbao,True,4,8,113,32
+204,Business Analyst,72362,Full-Time,Lead,Technology,SME,Bilbao,True,6,9,33,29
+205,Systems Administrator,45128,Full-Time,Senior,Consulting,SME,Santiago,True,5,10,23,27
+206,Full Stack Developer,148781,Part-Time,Senior,Retail,SME,Hybrid,False,3,10,51,50
+207,Business Analyst,90545,Full-Time,Mid,Telecommunications,Startup,Valencia,False,10,14,140,45
+208,DevOps Engineer,107180,Full-Time,Mid,Consulting,SME,Mexico City,True,7,5,27,32
+209,Business Analyst,112958,Part-Time,Mid,Retail,Large,Mexico City,False,6,10,121,43
+210,Frontend Developer,165937,Full-Time,Mid,Manufacturing,Large,Santiago,False,7,5,110,33
+211,Full Stack Developer,158291,Full-Time,Mid,Media,Large,Madrid,False,6,3,167,30
+212,Product Manager,64809,Contract,Senior,Finance,Large,Mexico City,False,5,14,57,43
+213,Backend Developer,141748,Full-Time,Junior,Telecommunications,Enterprise,Madrid,False,7,7,100,30
+214,Data Analyst,30287,Full-Time,Lead,Education,Startup,Santiago,False,6,4,190,50
+215,Data Scientist,33512,Internship,Senior,Telecommunications,SME,Bogota,False,3,6,9,56
+216,QA Engineer,157414,Contract,Mid,Finance,SME,Barcelona,False,5,8,20,33
+217,Business Analyst,133872,Full-Time,Junior,Healthcare,Large,Lima,True,10,12,21,14
+218,Technical Lead,175288,Full-Time,Lead,Media,Enterprise,Madrid,True,9,12,164,17
+219,Product Owner,118070,Full-Time,Lead,Technology,SME,Lima,False,4,13,106,32
+220,UX Designer,104767,Full-Time,Senior,Retail,Enterprise,Bilbao,True,3,4,184,31
+221,Backend Developer,122829,Full-Time,Mid,Consulting,Enterprise,Barcelona,True,5,10,24,15
+222,Data Analyst,67078,Full-Time,Mid,Consulting,SME,Barcelona,False,7,13,116,37
+223,Data Analyst,131288,Full-Time,Junior,Technology,SME,Hybrid,True,3,4,124,33
+224,Data Analyst,108524,Full-Time,Junior,Telecommunications,SME,Madrid,False,5,13,198,45
+225,Data Analyst,37219,Contract,Senior,Media,Enterprise,Barcelona,False,5,3,115,38
+226,DevOps Engineer,25235,Part-Time,Senior,E-commerce,SME,Sevilla,False,7,5,5,40
+227,Technical Lead,67929,Full-Time,Senior,Retail,Large,Santiago,False,5,1,62,42
+228,Technical Lead,152309,Full-Time,Lead,Manufacturing,SME,Buenos Aires,True,11,2,97,18
+229,Full Stack Developer,92444,Full-Time,Senior,Finance,Large,Madrid,False,3,0,176,41
+230,QA Engineer,164639,Full-Time,Mid,Telecommunications,SME,Valencia,False,6,1,10,32
+231,Frontend Developer,126834,Part-Time,Mid,Education,Large,Barcelona,False,6,1,112,36
+232,Data Analyst,109555,Full-Time,Lead,Healthcare,Enterprise,Barcelona,True,3,7,107,31
+233,Product Owner,98698,Full-Time,Junior,Consulting,Enterprise,Bilbao,True,4,7,54,29
+234,Frontend Developer,149450,Full-Time,Lead,Telecommunications,Enterprise,Mexico City,False,3,1,122,21
+235,Technical Lead,161487,Full-Time,Lead,Healthcare,Startup,Barcelona,True,8,12,114,21
+236,Software Engineer,68925,Full-Time,Junior,Finance,Large,Sevilla,False,5,13,92,40
+237,Software Engineer,162023,Full-Time,Senior,Consulting,Startup,Sevilla,True,9,5,24,23
+238,Product Owner,112388,Internship,Lead,Consulting,SME,Hybrid,True,7,14,18,38
+239,Full Stack Developer,33007,Full-Time,Senior,E-commerce,Large,Hybrid,True,11,4,137,17
+240,Technical Lead,83596,Full-Time,Lead,Telecommunications,SME,Bogota,True,9,2,173,28
+241,Product Owner,146101,Full-Time,Lead,Media,Large,Valencia,False,6,4,44,17
+242,DevOps Engineer,113861,Full-Time,Mid,Technology,Enterprise,Madrid,False,7,4,38,24
+243,Business Analyst,111740,Internship,Mid,Technology,Startup,Valencia,True,7,4,128,39
+244,Product Owner,40524,Full-Time,Lead,Manufacturing,Large,Valencia,False,7,2,49,40
+245,Product Manager,175354,Contract,Senior,Education,SME,Buenos Aires,True,11,14,84,22
+246,Frontend Developer,156149,Full-Time,Junior,Healthcare,Startup,Bogota,False,5,2,75,49
+247,Backend Developer,150501,Full-Time,Junior,Telecommunications,SME,Lima,True,8,3,159,20
+248,ML Engineer,45611,Full-Time,Senior,Retail,Enterprise,Lima,False,10,6,82,21
+249,Full Stack Developer,173056,Contract,Lead,Education,Enterprise,Sevilla,False,11,11,82,15
+250,Product Owner,39060,Full-Time,Lead,E-commerce,Enterprise,Mexico City,False,9,11,176,30
+251,Technical Lead,68303,Full-Time,Senior,Consulting,Enterprise,Valencia,False,5,11,37,22
+252,UX Designer,64711,Internship,Junior,Media,SME,Madrid,False,3,13,37,59
+253,Software Engineer,168026,Full-Time,Mid,Telecommunications,SME,Mexico City,False,6,1,48,38
+254,Product Manager,98340,Full-Time,Lead,Education,Large,Madrid,False,8,9,24,31
+255,QA Engineer,127974,Full-Time,Junior,Education,Large,Sevilla,False,5,3,115,45
+256,Data Analyst,174646,Internship,Mid,Media,SME,Valencia,False,3,3,168,40
+257,ML Engineer,165256,Full-Time,Junior,Manufacturing,SME,Mexico City,True,8,0,11,31
+258,Systems Administrator,175168,Part-Time,Senior,Healthcare,Large,Bogota,False,3,9,164,43
+259,Full Stack Developer,92728,Contract,Lead,Healthcare,Large,Valencia,True,11,7,199,13
+260,Backend Developer,36246,Full-Time,Mid,Education,SME,Bogota,False,3,0,171,59
+261,ML Engineer,174453,Part-Time,Mid,Finance,Large,Valencia,False,8,7,28,26
+262,Product Owner,152796,Full-Time,Senior,Education,Large,Bilbao,False,3,6,74,37
+263,DevOps Engineer,117263,Full-Time,Director,Education,Large,Mexico City,True,9,8,116,26
+264,Software Engineer,160090,Contract,Junior,Media,SME,Mexico City,True,5,7,108,37
+265,Technical Lead,36302,Contract,Mid,Consulting,Large,Hybrid,False,8,4,58,36
+266,Software Engineer,92506,Full-Time,Mid,Media,Startup,Barcelona,False,9,7,42,45
+267,QA Engineer,66157,Full-Time,Lead,Telecommunications,SME,Mexico City,True,3,13,78,32
+268,DevOps Engineer,79917,Full-Time,Mid,Education,Large,Santiago,True,3,14,84,37
+269,Data Analyst,121646,Full-Time,Junior,Healthcare,Large,Remote,False,7,10,36,27
+270,Technical Lead,108122,Full-Time,Senior,Retail,SME,Barcelona,False,8,9,49,39
+271,Frontend Developer,49519,Full-Time,Senior,Healthcare,Large,Bogota,True,11,11,65,27
+272,Data Scientist,105910,Full-Time,Junior,Technology,Large,Santiago,True,3,14,57,30
+273,Product Manager,145430,Full-Time,Lead,Manufacturing,Large,Valencia,True,6,11,132,30
+274,Software Engineer,96324,Full-Time,Junior,E-commerce,Large,Buenos Aires,False,10,2,183,44
+275,UX Designer,30408,Full-Time,Senior,Telecommunications,Large,Sevilla,True,11,14,80,23
+276,Software Engineer,84379,Full-Time,Mid,Telecommunications,Large,Santiago,True,5,9,188,32
+277,ML Engineer,50053,Contract,Senior,Manufacturing,Startup,Lima,True,4,6,31,54
+278,Software Engineer,165518,Full-Time,Mid,Retail,SME,Santiago,True,6,11,170,33
+279,Full Stack Developer,156994,Internship,Lead,E-commerce,SME,Santiago,False,4,3,66,45
+280,Software Engineer,123723,Contract,Senior,Consulting,Large,Buenos Aires,True,3,4,22,26
+281,Data Scientist,76356,Full-Time,Senior,Education,Large,Madrid,True,5,8,131,28
+282,Data Scientist,35789,Contract,Senior,E-commerce,SME,Barcelona,False,9,6,113,32
+283,Data Analyst,122720,Full-Time,Senior,Retail,Startup,Buenos Aires,True,3,3,107,40
+284,Backend Developer,91656,Full-Time,Junior,Finance,Large,Valencia,True,4,5,196,34
+285,Frontend Developer,69028,Full-Time,Mid,Technology,SME,Barcelona,False,3,9,81,40
+286,UX Designer,89484,Full-Time,Lead,E-commerce,Large,Buenos Aires,False,10,13,121,25
+287,Software Engineer,57154,Full-Time,Junior,E-commerce,Startup,Valencia,False,7,10,108,47
+288,Software Engineer,27336,Full-Time,Senior,Technology,Large,Valencia,False,10,6,162,29
+289,Product Manager,128677,Full-Time,Director,Education,Enterprise,Bilbao,False,5,12,53,18
+290,Technical Lead,92779,Part-Time,Junior,E-commerce,SME,Barcelona,True,9,9,173,40
+291,Data Scientist,44029,Full-Time,Senior,Technology,Large,Remote,False,10,12,120,33
+292,UX Designer,84201,Part-Time,Mid,Technology,Startup,Lima,False,8,8,145,59
+293,Data Analyst,57265,Full-Time,Senior,Technology,Large,Mexico City,False,9,3,166,36
+294,QA Engineer,127916,Full-Time,Junior,Media,Large,Madrid,False,4,9,104,45
+295,Backend Developer,71197,Contract,Junior,Retail,SME,Bogota,True,10,2,129,31
+296,Frontend Developer,150733,Full-Time,Senior,Media,Large,Bogota,False,7,7,29,18
+297,DevOps Engineer,179782,Full-Time,Lead,Finance,Enterprise,Bogota,False,9,14,198,13
+298,Frontend Developer,96907,Full-Time,Senior,Consulting,SME,Madrid,False,3,0,132,35
+299,Full Stack Developer,153876,Full-Time,Mid,Media,Startup,Mexico City,True,7,8,104,28
+300,ML Engineer,89435,Internship,Junior,Media,Enterprise,Lima,True,3,12,150,54
+301,Full Stack Developer,65631,Full-Time,Senior,Retail,Large,Santiago,True,10,0,9,33
+302,Software Engineer,154038,Internship,Mid,Consulting,Enterprise,Mexico City,False,6,1,23,28
+303,Systems Administrator,45103,Full-Time,Lead,Manufacturing,Large,Bilbao,True,6,12,174,23
+304,Backend Developer,89772,Full-Time,Lead,Technology,Enterprise,Buenos Aires,True,4,7,22,15
+305,ML Engineer,151108,Full-Time,Senior,Telecommunications,SME,Madrid,False,7,8,125,27
+306,UX Designer,39382,Full-Time,Lead,Consulting,Large,Santiago,True,3,6,36,30
+307,DevOps Engineer,109291,Full-Time,Junior,Finance,Enterprise,Madrid,False,11,2,153,14
+308,Data Scientist,126195,Contract,Senior,Education,Large,Bilbao,True,7,6,14,32
+309,Backend Developer,159828,Contract,Mid,Finance,SME,Valencia,False,8,5,41,27
+310,Backend Developer,45609,Full-Time,Lead,Technology,SME,Buenos Aires,False,4,1,181,46
+311,Full Stack Developer,172550,Internship,Mid,Consulting,SME,Barcelona,False,3,2,90,47
+312,Systems Administrator,100683,Contract,Senior,Finance,SME,Mexico City,False,6,10,17,41
+313,Software Engineer,149714,Part-Time,Lead,Finance,SME,Bogota,True,9,12,187,19
+314,Product Owner,155330,Full-Time,Junior,Manufacturing,Large,Barcelona,True,8,11,149,23
+315,Data Analyst,96315,Full-Time,Mid,Manufacturing,Large,Madrid,True,3,12,13,34
+316,Full Stack Developer,102834,Full-Time,Senior,Consulting,SME,Barcelona,False,3,9,92,37
+317,Backend Developer,151205,Full-Time,Mid,Technology,Large,Lima,False,10,9,176,32
+318,Business Analyst,39153,Full-Time,Mid,Media,Startup,Buenos Aires,False,6,12,50,52
+319,Product Manager,101325,Contract,Mid,Healthcare,Startup,Bilbao,False,7,11,140,45
+320,DevOps Engineer,169071,Full-Time,Junior,E-commerce,SME,Madrid,True,9,14,123,26
+321,Data Analyst,80318,Full-Time,Lead,Telecommunications,Large,Mexico City,False,10,4,169,26
+322,Full Stack Developer,156886,Internship,Senior,E-commerce,SME,Lima,False,9,9,23,41
+323,DevOps Engineer,140033,Contract,Junior,Retail,SME,Lima,True,4,3,195,40
+324,Product Manager,101077,Full-Time,Mid,Manufacturing,SME,Santiago,False,6,1,178,43
+325,QA Engineer,115474,Contract,Mid,Consulting,Enterprise,Madrid,True,3,3,98,21
+326,Product Manager,158515,Full-Time,Junior,E-commerce,Startup,Madrid,False,11,11,30,41
+327,Systems Administrator,98319,Full-Time,Mid,Technology,Large,Madrid,False,5,7,50,34
+328,Product Manager,150885,Full-Time,Mid,Telecommunications,Large,Valencia,True,5,4,122,16
+329,DevOps Engineer,134777,Full-Time,Mid,E-commerce,Large,Barcelona,True,11,4,50,14
+330,Frontend Developer,42368,Full-Time,Senior,Telecommunications,Enterprise,Valencia,True,5,12,18,23
+331,DevOps Engineer,171400,Full-Time,Mid,Education,Startup,Sevilla,False,10,11,89,35
+332,Product Owner,116751,Full-Time,Senior,Technology,SME,Remote,False,4,11,67,38
+333,Software Engineer,52306,Full-Time,Senior,Healthcare,Enterprise,Santiago,True,5,9,76,32
+334,ML Engineer,62219,Full-Time,Senior,Finance,Large,Lima,False,4,2,7,36
+335,Frontend Developer,85279,Contract,Senior,Telecommunications,Large,Mexico City,False,3,12,32,37
+336,Data Scientist,78028,Full-Time,Mid,Technology,Large,Madrid,True,4,7,129,27
+337,ML Engineer,129263,Full-Time,Lead,Telecommunications,Large,Bogota,True,10,5,161,17
+338,Software Engineer,25126,Full-Time,Senior,Telecommunications,Enterprise,Valencia,False,11,1,91,17
+339,Full Stack Developer,77329,Full-Time,Mid,Media,Enterprise,Santiago,False,4,1,150,31
+340,Data Analyst,52632,Full-Time,Lead,Media,Large,Sevilla,True,9,8,167,26
+341,Product Owner,134945,Contract,Senior,Technology,SME,Hybrid,True,7,12,81,17
+342,Product Owner,80176,Full-Time,Mid,Media,Enterprise,Valencia,True,5,6,80,24
+343,Data Scientist,159869,Full-Time,Mid,Retail,Startup,Valencia,False,11,9,179,35
+344,Frontend Developer,169790,Part-Time,Junior,Healthcare,SME,Remote,True,8,8,118,35
+345,Systems Administrator,59560,Full-Time,Lead,Consulting,Enterprise,Madrid,True,3,13,137,24
+346,Technical Lead,101589,Full-Time,Senior,Technology,SME,Mexico City,False,7,5,79,40
+347,QA Engineer,47116,Full-Time,Lead,Technology,SME,Mexico City,False,9,14,63,36
+348,Product Manager,157717,Full-Time,Senior,Retail,Startup,Lima,True,6,4,63,43
+349,Frontend Developer,149085,Full-Time,Mid,Manufacturing,Enterprise,Hybrid,True,10,11,51,10
+350,Data Analyst,142718,Full-Time,Junior,Manufacturing,Large,Hybrid,False,7,0,99,46
+351,QA Engineer,44256,Part-Time,Senior,Media,Large,Madrid,True,11,11,145,27
+352,Product Owner,125158,Contract,Senior,Consulting,SME,Lima,True,11,5,82,28
+353,DevOps Engineer,144719,Part-Time,Director,Media,Large,Mexico City,False,11,5,117,30
+354,Data Analyst,93244,Contract,Mid,Education,Large,Mexico City,True,3,2,113,23
+355,Software Engineer,167766,Full-Time,Mid,Education,SME,Madrid,False,4,2,110,43
+356,Data Scientist,81264,Part-Time,Senior,Finance,SME,Mexico City,False,5,14,93,47
+357,Software Engineer,82545,Full-Time,Senior,Education,SME,Hybrid,True,6,2,37,41
+358,Technical Lead,64224,Full-Time,Senior,Manufacturing,Enterprise,Remote,True,11,2,101,16
+359,Data Analyst,122945,Full-Time,Senior,Healthcare,Large,Bilbao,False,8,6,194,29
+360,UX Designer,38224,Full-Time,Mid,Education,Enterprise,Madrid,False,3,9,83,44
+361,UX Designer,65738,Full-Time,Senior,Media,SME,Sevilla,False,11,10,20,37
+362,Full Stack Developer,88731,Internship,Senior,Telecommunications,Large,Lima,False,8,1,48,45
+363,Frontend Developer,164649,Full-Time,Lead,Technology,Large,Mexico City,True,6,9,190,22
+364,Product Owner,33070,Full-Time,Lead,Healthcare,Large,Bilbao,False,6,12,124,34
+365,Product Owner,151161,Full-Time,Mid,Healthcare,Enterprise,Madrid,True,5,9,138,18
+366,Product Manager,33666,Contract,Mid,Media,SME,Bilbao,False,9,1,112,46
+367,Product Manager,82761,Full-Time,Director,Technology,Startup,Bilbao,True,5,2,147,33
+368,Product Manager,61368,Part-Time,Mid,Manufacturing,Large,Remote,True,4,9,8,44
+369,DevOps Engineer,162855,Full-Time,Lead,Healthcare,Large,Mexico City,False,10,11,60,20
+370,ML Engineer,66914,Full-Time,Junior,Finance,Large,Valencia,False,6,6,68,34
+371,Backend Developer,152738,Full-Time,Senior,Media,SME,Buenos Aires,True,10,2,166,24
+372,ML Engineer,92526,Contract,Lead,Healthcare,Large,Madrid,True,3,6,99,37
+373,Software Engineer,44956,Full-Time,Lead,Consulting,SME,Hybrid,False,7,8,60,34
+374,ML Engineer,71240,Full-Time,Mid,Technology,SME,Sevilla,False,11,10,36,39
+375,DevOps Engineer,146008,Full-Time,Senior,Education,Large,Buenos Aires,True,3,9,120,23
+376,Full Stack Developer,119270,Full-Time,Mid,Healthcare,Large,Sevilla,True,6,11,13,28
+377,Software Engineer,29757,Full-Time,Junior,Media,SME,Mexico City,True,8,14,195,46
+378,ML Engineer,44097,Full-Time,Senior,Education,SME,Mexico City,False,10,10,109,40
+379,DevOps Engineer,166467,Full-Time,Senior,Finance,SME,Mexico City,False,5,3,82,26
+380,Backend Developer,172313,Full-Time,Lead,Education,SME,Valencia,False,7,6,165,30
+381,ML Engineer,128892,Full-Time,Mid,Consulting,Large,Valencia,False,9,8,91,27
+382,DevOps Engineer,95480,Full-Time,Mid,Manufacturing,Enterprise,Madrid,True,3,13,25,42
+383,Technical Lead,71163,Full-Time,Junior,Healthcare,SME,Mexico City,False,9,7,59,31
+384,Product Manager,44816,Contract,Mid,E-commerce,Large,Madrid,False,10,7,80,35
+385,Technical Lead,77853,Full-Time,Mid,E-commerce,Enterprise,Santiago,True,10,8,189,14
+386,Product Owner,121731,Part-Time,Senior,Education,Enterprise,Lima,True,11,13,134,16
+387,Product Manager,177638,Contract,Mid,Retail,SME,Lima,False,8,4,145,39
+388,Product Owner,87823,Full-Time,Lead,Technology,Enterprise,Bilbao,False,8,13,130,20
+389,Business Analyst,176878,Contract,Director,E-commerce,SME,Bilbao,True,4,4,136,32
+390,Data Scientist,26759,Full-Time,Senior,Retail,SME,Madrid,False,5,2,88,58
+391,Technical Lead,117374,Internship,Lead,E-commerce,Startup,Mexico City,False,6,4,182,47
+392,Data Scientist,158554,Full-Time,Senior,Retail,Large,Lima,True,6,7,119,24
+393,Data Scientist,49442,Full-Time,Mid,Technology,Startup,Valencia,True,10,11,52,31
+394,Backend Developer,118501,Part-Time,Junior,Telecommunications,SME,Bilbao,True,3,4,127,42
+395,Product Manager,27079,Internship,Mid,E-commerce,SME,Lima,False,6,3,82,63
+396,Business Analyst,158789,Contract,Senior,Consulting,Enterprise,Lima,True,6,7,34,15
+397,Product Owner,84676,Full-Time,Lead,Healthcare,Enterprise,Valencia,True,3,6,33,19
+398,DevOps Engineer,115397,Full-Time,Mid,Retail,SME,Buenos Aires,False,5,14,140,42
+399,Software Engineer,97847,Internship,Lead,Healthcare,Enterprise,Barcelona,False,7,13,144,38
+400,DevOps Engineer,118607,Full-Time,Senior,Media,Enterprise,Madrid,True,8,13,45,12
+401,Software Engineer,174521,Contract,Junior,Media,Large,Remote,True,11,5,30,21
+402,Technical Lead,89077,Contract,Director,Technology,Startup,Lima,False,11,4,54,37
+403,UX Designer,63258,Full-Time,Mid,Retail,Large,Bogota,False,11,13,6,32
+404,DevOps Engineer,162717,Full-Time,Mid,Finance,Enterprise,Madrid,False,3,4,59,16
+405,ML Engineer,144771,Full-Time,Senior,Media,Large,Lima,True,11,12,108,8
+406,ML Engineer,63000,Full-Time,Junior,Technology,SME,Bilbao,False,10,9,188,34
+407,Frontend Developer,51737,Contract,Senior,Media,Large,Sevilla,False,4,1,18,43
+408,Product Manager,36485,Full-Time,Mid,Media,Large,Buenos Aires,False,3,12,138,47
+409,Software Engineer,63565,Contract,Mid,Finance,Large,Madrid,False,3,14,132,46
+410,Software Engineer,144614,Full-Time,Director,E-commerce,Startup,Bogota,True,8,3,108,16
+411,Data Analyst,90155,Internship,Mid,Education,SME,Santiago,True,11,7,99,41
+412,Full Stack Developer,77487,Full-Time,Mid,Telecommunications,Enterprise,Barcelona,False,9,7,85,24
+413,Product Manager,154948,Full-Time,Mid,Media,Enterprise,Barcelona,False,7,10,65,15
+414,Backend Developer,37342,Full-Time,Lead,Media,Startup,Barcelona,False,4,0,16,52
+415,Frontend Developer,65806,Part-Time,Junior,Consulting,Enterprise,Madrid,True,3,1,17,42
+416,Backend Developer,73770,Part-Time,Mid,Telecommunications,SME,Santiago,False,4,4,151,54
+417,Technical Lead,103623,Contract,Junior,Finance,Large,Lima,False,3,8,176,40
+418,Technical Lead,128177,Full-Time,Junior,Healthcare,Large,Madrid,True,5,9,93,33
+419,Backend Developer,156026,Full-Time,Lead,Retail,Enterprise,Madrid,True,8,10,99,16
+420,Backend Developer,100629,Full-Time,Senior,Media,Enterprise,Santiago,False,10,11,63,27
+421,Business Analyst,145993,Full-Time,Mid,Education,SME,Bogota,False,5,12,41,31
+422,Product Manager,151944,Full-Time,Senior,Retail,Enterprise,Valencia,False,11,10,29,14
+423,Backend Developer,130947,Internship,Mid,Telecommunications,Startup,Sevilla,False,7,6,20,53
+424,ML Engineer,51399,Internship,Director,Retail,Large,Santiago,True,9,9,170,46
+425,Full Stack Developer,153177,Internship,Director,E-commerce,Large,Valencia,True,10,4,175,21
+426,Full Stack Developer,134575,Contract,Mid,Media,Large,Madrid,False,5,0,91,34
+427,Data Scientist,135904,Full-Time,Lead,Retail,SME,Bogota,False,4,14,146,37
+428,UX Designer,55678,Full-Time,Senior,Healthcare,Enterprise,Santiago,False,4,14,138,32
+429,Technical Lead,101218,Full-Time,Mid,Healthcare,SME,Santiago,False,7,5,27,43
+430,Software Engineer,88230,Contract,Mid,Media,Startup,Bogota,True,3,11,130,44
+431,Data Analyst,99055,Full-Time,Mid,Manufacturing,Large,Mexico City,False,4,7,64,49
+432,Systems Administrator,97258,Full-Time,Senior,Healthcare,Large,Barcelona,True,11,6,144,20
+433,Software Engineer,64986,Full-Time,Director,Retail,Enterprise,Sevilla,True,9,1,145,30
+434,UX Designer,110595,Full-Time,Senior,Technology,SME,Madrid,True,8,11,104,24
+435,Data Analyst,126358,Contract,Lead,Healthcare,SME,Madrid,True,11,4,107,20
+436,Business Analyst,89929,Contract,Senior,Telecommunications,Enterprise,Mexico City,True,9,13,138,23
+437,Product Manager,98506,Full-Time,Lead,Manufacturing,Large,Lima,True,7,10,67,23
+438,DevOps Engineer,59911,Internship,Senior,Retail,SME,Hybrid,True,11,3,42,39
+439,Product Manager,112127,Part-Time,Mid,Finance,Large,Santiago,True,8,8,132,15
+440,Software Engineer,138453,Full-Time,Senior,Consulting,Large,Barcelona,False,8,9,54,17
+441,Software Engineer,109458,Full-Time,Lead,Finance,Large,Madrid,True,6,0,184,28
+442,Data Analyst,37175,Full-Time,Junior,E-commerce,Large,Bogota,True,3,11,44,41
+443,Data Analyst,144235,Full-Time,Lead,Consulting,Enterprise,Santiago,False,7,5,12,12
+444,Technical Lead,79771,Internship,Junior,E-commerce,Enterprise,Santiago,False,11,2,193,40
+445,Business Analyst,152157,Full-Time,Mid,Consulting,Large,Bogota,False,10,10,12,18
+446,Technical Lead,146300,Contract,Lead,Consulting,Startup,Mexico City,True,10,8,108,27
+447,UX Designer,111925,Full-Time,Mid,Technology,Enterprise,Lima,False,7,4,38,28
+448,Backend Developer,91358,Full-Time,Mid,Education,Large,Madrid,True,11,12,192,31
+449,Product Manager,173399,Full-Time,Mid,Telecommunications,Large,Bogota,True,5,5,61,19
+450,Data Analyst,72057,Full-Time,Lead,Finance,SME,Lima,True,5,10,178,25
+451,Product Owner,31150,Full-Time,Junior,Healthcare,Enterprise,Valencia,False,3,8,26,29
+452,UX Designer,29425,Internship,Lead,Retail,Large,Mexico City,True,11,8,91,37
+453,ML Engineer,41032,Full-Time,Junior,Manufacturing,Startup,Valencia,True,8,7,44,52
+454,Business Analyst,27198,Full-Time,Director,Telecommunications,SME,Hybrid,True,4,8,177,41
+455,Software Engineer,176151,Full-Time,Director,E-commerce,Enterprise,Madrid,False,10,3,187,18
+456,Technical Lead,169931,Full-Time,Mid,Technology,Startup,Santiago,False,11,5,183,31
+457,UX Designer,143865,Full-Time,Mid,E-commerce,Enterprise,Barcelona,True,11,4,90,9
+458,Systems Administrator,164777,Full-Time,Mid,Education,Large,Mexico City,False,4,4,137,36
+459,Product Manager,48236,Full-Time,Senior,Manufacturing,Large,Barcelona,False,4,3,99,50
+460,Data Analyst,112955,Full-Time,Junior,Technology,SME,Barcelona,False,9,1,17,30
+461,Software Engineer,128145,Full-Time,Junior,E-commerce,SME,Buenos Aires,True,6,11,32,22
+462,DevOps Engineer,171430,Full-Time,Junior,Education,Enterprise,Remote,False,3,5,88,31
+463,Systems Administrator,119914,Full-Time,Mid,Retail,SME,Barcelona,True,10,8,66,30
+464,Business Analyst,127870,Full-Time,Mid,Retail,Large,Barcelona,False,4,11,97,33
+465,UX Designer,141243,Internship,Senior,E-commerce,SME,Bogota,True,5,0,91,31
+466,Frontend Developer,39596,Part-Time,Director,Telecommunications,Startup,Buenos Aires,True,7,13,28,38
+467,Software Engineer,157351,Full-Time,Mid,Manufacturing,Startup,Remote,True,5,6,102,43
+468,Product Manager,136496,Full-Time,Senior,Media,Large,Barcelona,False,9,5,11,29
+469,Data Scientist,155273,Internship,Mid,Telecommunications,Enterprise,Mexico City,True,9,2,170,21
+470,Product Owner,163155,Part-Time,Lead,Retail,SME,Barcelona,False,4,0,41,47
+471,QA Engineer,145674,Full-Time,Lead,Manufacturing,SME,Barcelona,True,9,12,72,28
+472,Systems Administrator,145307,Contract,Lead,Education,SME,Mexico City,False,8,3,174,33
+473,Backend Developer,173843,Full-Time,Director,Technology,Large,Santiago,False,11,14,90,13
+474,QA Engineer,44063,Full-Time,Junior,Consulting,SME,Bogota,False,11,13,137,46
+475,Product Manager,92642,Full-Time,Lead,E-commerce,Enterprise,Valencia,False,4,8,196,15
+476,ML Engineer,115093,Full-Time,Senior,Finance,Large,Bilbao,False,9,14,182,19
+477,Technical Lead,60954,Internship,Mid,Manufacturing,Large,Sevilla,True,7,1,91,44
+478,ML Engineer,52856,Part-Time,Director,Healthcare,Startup,Hybrid,False,8,2,19,49
+479,Data Scientist,27573,Full-Time,Junior,Education,Enterprise,Valencia,True,3,1,127,45
+480,Systems Administrator,60367,Full-Time,Senior,Media,SME,Valencia,False,9,13,111,47
+481,Backend Developer,124608,Full-Time,Mid,Consulting,Startup,Sevilla,False,8,1,185,37
+482,Frontend Developer,85774,Full-Time,Mid,Healthcare,Large,Santiago,True,6,9,157,27
+483,Data Scientist,48752,Contract,Senior,Media,Large,Valencia,True,3,10,93,40
+484,Systems Administrator,80029,Full-Time,Senior,Finance,SME,Remote,False,11,10,129,25
+485,Full Stack Developer,173757,Full-Time,Mid,Retail,SME,Valencia,False,6,7,117,34
+486,QA Engineer,155282,Part-Time,Mid,Telecommunications,Large,Lima,False,4,2,141,36
+487,Data Scientist,76693,Full-Time,Lead,E-commerce,SME,Madrid,False,10,6,170,34
+488,QA Engineer,141739,Part-Time,Junior,Technology,Enterprise,Mexico City,False,4,7,154,33
+489,Software Engineer,80961,Full-Time,Mid,Media,Large,Remote,False,7,2,111,38
+490,ML Engineer,151678,Internship,Lead,Consulting,SME,Barcelona,True,8,1,91,19
+491,Software Engineer,99532,Full-Time,Lead,Manufacturing,Large,Hybrid,True,10,12,181,24
+492,Product Owner,106994,Full-Time,Mid,Retail,SME,Bilbao,False,3,12,72,46
+493,Full Stack Developer,81133,Full-Time,Senior,Manufacturing,Large,Remote,False,3,7,19,39
+494,Backend Developer,86268,Full-Time,Lead,Consulting,Large,Mexico City,False,6,2,69,34
+495,Frontend Developer,56653,Contract,Lead,Manufacturing,SME,Valencia,True,7,6,58,50
+496,Business Analyst,178252,Part-Time,Mid,Media,Large,Barcelona,True,11,11,162,25
+497,QA Engineer,146829,Full-Time,Mid,Education,Enterprise,Valencia,True,9,0,97,21
+498,Frontend Developer,153377,Full-Time,Mid,Manufacturing,SME,Madrid,True,9,13,24,32
+499,QA Engineer,26622,Full-Time,Mid,Telecommunications,Enterprise,Barcelona,True,10,14,37,25
+500,Product Manager,73756,Full-Time,Senior,Finance,SME,Madrid,False,7,11,104,26
+501,Data Scientist,65809,Full-Time,Junior,Technology,Startup,Bilbao,True,7,5,81,39
+502,Product Owner,41725,Contract,Senior,Media,SME,Bogota,False,3,11,139,54
+503,ML Engineer,76226,Full-Time,Mid,Healthcare,SME,Barcelona,True,11,11,140,28
+504,Business Analyst,106182,Full-Time,Mid,Consulting,SME,Barcelona,False,8,12,160,40
+505,Data Analyst,54402,Full-Time,Lead,Retail,Startup,Mexico City,True,11,8,177,30
+506,QA Engineer,29263,Contract,Mid,Media,Enterprise,Barcelona,True,5,11,111,37
+507,Frontend Developer,72924,Part-Time,Junior,Education,Enterprise,Madrid,True,7,2,124,28
+508,Product Owner,99182,Contract,Lead,Retail,Large,Barcelona,False,4,13,78,42
+509,DevOps Engineer,167736,Full-Time,Junior,Telecommunications,SME,Remote,False,7,6,15,35
+510,Business Analyst,60737,Full-Time,Senior,Consulting,Startup,Lima,False,10,12,35,43
+511,DevOps Engineer,126332,Contract,Senior,Retail,Startup,Sevilla,True,4,5,16,47
+512,Software Engineer,114563,Part-Time,Mid,Manufacturing,Large,Mexico City,False,10,7,128,39
+513,ML Engineer,153575,Full-Time,Lead,Media,Enterprise,Buenos Aires,True,6,2,82,5
+514,Technical Lead,126371,Part-Time,Mid,Finance,SME,Mexico City,True,3,2,183,37
+515,Technical Lead,63709,Contract,Mid,Consulting,Startup,Mexico City,False,7,3,176,46
+516,Data Analyst,175322,Full-Time,Junior,E-commerce,Large,Santiago,False,3,2,100,41
+517,Product Manager,46172,Part-Time,Mid,Telecommunications,SME,Valencia,True,9,8,54,42
+518,Frontend Developer,36555,Full-Time,Lead,Technology,SME,Madrid,True,10,10,121,22
+519,Systems Administrator,78276,Full-Time,Mid,Consulting,Large,Bilbao,False,5,3,21,39
+520,Data Analyst,82492,Full-Time,Mid,Education,Large,Lima,True,5,5,167,36
+521,Data Scientist,114599,Contract,Mid,Media,Startup,Santiago,True,9,7,133,37
+522,Data Scientist,36046,Contract,Senior,Manufacturing,Startup,Lima,False,6,10,161,60
+523,Frontend Developer,141021,Contract,Junior,Technology,Enterprise,Hybrid,False,5,12,183,34
+524,Systems Administrator,179222,Full-Time,Mid,Technology,SME,Barcelona,False,10,7,68,34
+525,Backend Developer,29853,Part-Time,Senior,Telecommunications,Startup,Mexico City,False,5,14,136,52
+526,Product Manager,145900,Contract,Mid,Retail,SME,Mexico City,False,9,4,91,34
+527,Product Owner,177864,Part-Time,Mid,Education,Startup,Hybrid,True,4,4,160,46
+528,QA Engineer,84129,Contract,Junior,Retail,SME,Hybrid,False,3,5,20,47
+529,Systems Administrator,139130,Contract,Mid,Manufacturing,Enterprise,Mexico City,True,8,9,67,27
+530,Technical Lead,171922,Full-Time,Lead,Technology,SME,Valencia,True,10,6,80,18
+531,Business Analyst,168184,Full-Time,Junior,Education,SME,Bogota,False,3,12,185,33
+532,Backend Developer,146789,Full-Time,Junior,Education,Large,Madrid,True,11,12,89,17
+533,QA Engineer,63890,Full-Time,Mid,Healthcare,Large,Bogota,True,5,9,113,38
+534,QA Engineer,91017,Full-Time,Senior,Media,Enterprise,Remote,True,5,13,21,16
+535,Backend Developer,157596,Contract,Senior,Technology,Enterprise,Sevilla,True,6,6,172,17
+536,Software Engineer,125424,Full-Time,Mid,Technology,Startup,Santiago,False,3,12,145,39
+537,DevOps Engineer,40048,Full-Time,Senior,Education,Large,Bilbao,False,11,3,184,30
+538,QA Engineer,79912,Part-Time,Senior,Retail,Large,Bilbao,False,5,5,62,56
+539,Backend Developer,59008,Full-Time,Lead,Technology,Enterprise,Valencia,True,6,6,169,21
+540,Systems Administrator,156132,Full-Time,Lead,Education,Large,Bogota,True,3,4,83,29
+541,Backend Developer,108559,Full-Time,Mid,Technology,Enterprise,Remote,True,6,4,65,18
+542,Full Stack Developer,80337,Full-Time,Mid,Education,Large,Remote,True,3,1,117,28
+543,Data Analyst,135616,Full-Time,Junior,Healthcare,SME,Barcelona,True,7,6,125,23
+544,UX Designer,38350,Full-Time,Mid,Media,Large,Lima,False,7,11,38,46
+545,Software Engineer,49354,Full-Time,Director,Education,Enterprise,Bogota,False,9,5,74,30
+546,ML Engineer,70186,Contract,Mid,Technology,Enterprise,Valencia,False,10,10,21,24
+547,UX Designer,53145,Full-Time,Mid,Manufacturing,Startup,Madrid,True,6,0,24,47
+548,Data Analyst,111123,Part-Time,Senior,Media,Large,Valencia,False,9,3,63,36
+549,Data Analyst,45581,Full-Time,Mid,Healthcare,SME,Remote,True,6,2,73,38
+550,Data Analyst,113929,Full-Time,Junior,Education,Startup,Santiago,True,5,11,165,39
+551,UX Designer,48051,Part-Time,Mid,Manufacturing,SME,Mexico City,False,8,14,106,45
+552,Frontend Developer,76474,Full-Time,Mid,Education,SME,Valencia,False,6,2,124,43
+553,DevOps Engineer,116748,Full-Time,Senior,Retail,Enterprise,Mexico City,True,5,6,149,30
+554,Backend Developer,150995,Full-Time,Junior,Technology,SME,Madrid,True,11,10,61,24
+555,Business Analyst,94626,Full-Time,Mid,Consulting,Enterprise,Sevilla,True,7,11,87,21
+556,DevOps Engineer,31960,Full-Time,Mid,Telecommunications,Startup,Santiago,False,9,9,133,45
+557,Technical Lead,177592,Full-Time,Mid,Finance,SME,Barcelona,False,8,3,17,25
+558,Systems Administrator,61408,Full-Time,Senior,Retail,SME,Lima,False,7,14,159,44
+559,Product Manager,119006,Full-Time,Mid,Manufacturing,SME,Barcelona,True,9,11,191,35
+560,Frontend Developer,82134,Part-Time,Mid,Retail,Startup,Mexico City,True,8,7,10,50
+561,ML Engineer,176563,Part-Time,Lead,E-commerce,SME,Sevilla,False,4,10,101,35
+562,DevOps Engineer,157413,Internship,Senior,Education,Large,Santiago,False,5,8,98,55
+563,Business Analyst,115327,Full-Time,Junior,Education,SME,Madrid,True,4,2,114,39
+564,Data Scientist,156410,Contract,Senior,Finance,SME,Madrid,False,5,4,155,31
+565,Data Analyst,168326,Full-Time,Senior,Finance,SME,Remote,False,3,3,142,40
+566,QA Engineer,36344,Full-Time,Senior,E-commerce,Enterprise,Valencia,False,10,13,55,15
+567,Technical Lead,157822,Full-Time,Junior,Technology,Enterprise,Bogota,False,8,11,151,25
+568,Product Manager,92957,Part-Time,Director,Telecommunications,Large,Hybrid,False,4,9,55,38
+569,Software Engineer,130423,Full-Time,Mid,Consulting,SME,Barcelona,False,10,14,91,36
+570,ML Engineer,83053,Full-Time,Junior,Consulting,Startup,Valencia,False,8,5,72,47
+571,Systems Administrator,171968,Full-Time,Junior,Healthcare,Enterprise,Mexico City,True,9,10,88,15
+572,Product Manager,102454,Contract,Junior,Healthcare,Startup,Hybrid,True,3,9,46,49
+573,Data Analyst,115600,Contract,Lead,Technology,SME,Remote,True,9,3,61,18
+574,QA Engineer,147732,Part-Time,Junior,Healthcare,SME,Buenos Aires,False,5,7,170,48
+575,Frontend Developer,62641,Full-Time,Junior,Healthcare,SME,Bogota,True,10,2,66,25
+576,QA Engineer,54711,Full-Time,Lead,E-commerce,SME,Barcelona,False,8,10,11,37
+577,UX Designer,95342,Full-Time,Mid,E-commerce,Large,Hybrid,True,6,4,116,24
+578,QA Engineer,131896,Full-Time,Junior,Healthcare,Startup,Hybrid,True,10,12,182,20
+579,UX Designer,168254,Full-Time,Junior,Retail,Large,Barcelona,False,11,0,184,30
+580,Technical Lead,112833,Part-Time,Junior,Media,Startup,Valencia,True,4,12,30,49
+581,Frontend Developer,81276,Internship,Mid,Media,Startup,Madrid,True,8,14,158,43
+582,Systems Administrator,44541,Part-Time,Senior,Technology,Enterprise,Valencia,True,7,5,23,21
+583,Product Owner,119457,Part-Time,Junior,Consulting,SME,Bogota,False,7,10,13,45
+584,Data Analyst,69813,Internship,Junior,Finance,Enterprise,Sevilla,True,5,4,65,37
+585,UX Designer,164892,Full-Time,Senior,Technology,Large,Madrid,False,10,7,24,21
+586,Software Engineer,49070,Full-Time,Senior,Healthcare,Startup,Sevilla,False,10,8,110,41
+587,QA Engineer,167194,Internship,Mid,E-commerce,Enterprise,Hybrid,True,7,7,54,19
+588,QA Engineer,105559,Full-Time,Mid,Education,SME,Santiago,True,10,7,85,39
+589,Software Engineer,66786,Part-Time,Mid,Retail,Enterprise,Bilbao,True,10,11,154,27
+590,Systems Administrator,162809,Full-Time,Mid,Manufacturing,SME,Barcelona,False,5,13,145,38
+591,Data Scientist,61062,Full-Time,Mid,E-commerce,Enterprise,Hybrid,True,4,12,144,26
+592,Technical Lead,76571,Part-Time,Mid,Media,Startup,Lima,True,11,2,14,36
+593,Backend Developer,50510,Internship,Lead,E-commerce,Large,Valencia,False,4,3,69,45
+594,Product Owner,44426,Contract,Junior,Retail,Large,Madrid,False,11,14,162,53
+595,ML Engineer,62265,Full-Time,Senior,Finance,Enterprise,Madrid,True,6,10,12,14
+596,Business Analyst,173922,Contract,Junior,Healthcare,Enterprise,Madrid,True,4,3,153,25
+597,UX Designer,91150,Full-Time,Senior,Education,Enterprise,Santiago,False,3,14,26,31
+598,Software Engineer,112312,Full-Time,Senior,Media,Enterprise,Remote,False,6,14,22,25
+599,Business Analyst,114613,Full-Time,Lead,Media,SME,Buenos Aires,False,11,13,198,37
+600,Frontend Developer,99910,Full-Time,Junior,Telecommunications,SME,Lima,False,11,10,180,35
+601,Systems Administrator,77375,Full-Time,Senior,Consulting,SME,Bilbao,False,6,4,176,39
+602,UX Designer,146826,Internship,Mid,Finance,SME,Mexico City,False,11,12,13,29
+603,Backend Developer,60435,Part-Time,Senior,Media,SME,Bogota,False,8,8,199,42
+604,Business Analyst,121443,Full-Time,Mid,Consulting,Large,Barcelona,True,3,11,58,36
+605,Frontend Developer,159055,Full-Time,Mid,Media,SME,Sevilla,False,8,8,30,35
+606,Product Manager,176734,Internship,Mid,Healthcare,Large,Santiago,True,11,9,98,21
+607,Data Analyst,48510,Internship,Mid,Consulting,SME,Madrid,True,4,12,104,50
+608,QA Engineer,119071,Contract,Mid,Retail,SME,Sevilla,False,8,11,30,44
+609,Product Manager,31640,Full-Time,Junior,Telecommunications,Large,Buenos Aires,True,4,13,38,34
+610,UX Designer,69547,Full-Time,Director,Healthcare,Large,Hybrid,False,6,0,12,31
+611,Backend Developer,79620,Full-Time,Senior,Retail,Large,Buenos Aires,True,10,13,142,37
+612,Product Owner,171389,Full-Time,Director,Education,Large,Bogota,False,9,13,52,26
+613,Business Analyst,140608,Full-Time,Mid,Finance,SME,Bilbao,False,11,7,187,16
+614,Technical Lead,32564,Internship,Lead,Finance,Large,Bogota,False,9,13,111,42
+615,Data Analyst,138824,Full-Time,Lead,Manufacturing,Startup,Santiago,True,3,0,58,47
+616,UX Designer,104273,Full-Time,Senior,Manufacturing,SME,Lima,True,4,1,172,34
+617,Systems Administrator,99859,Full-Time,Senior,Consulting,SME,Bilbao,False,8,6,123,30
+618,Software Engineer,135017,Full-Time,Mid,Finance,Startup,Santiago,True,9,14,147,32
+619,Technical Lead,148618,Full-Time,Lead,Consulting,SME,Santiago,False,5,7,85,31
+620,Technical Lead,150341,Full-Time,Mid,Manufacturing,Enterprise,Bilbao,False,11,0,150,22
+621,Technical Lead,54430,Full-Time,Junior,Education,Enterprise,Barcelona,True,9,14,100,21
+622,DevOps Engineer,52788,Contract,Mid,Media,SME,Madrid,True,8,2,106,43
+623,UX Designer,169991,Internship,Lead,Retail,Startup,Madrid,True,8,6,155,40
+624,Data Analyst,94346,Full-Time,Lead,E-commerce,SME,Lima,False,3,12,66,28
+625,QA Engineer,121122,Full-Time,Director,Consulting,SME,Barcelona,True,7,8,50,14
+626,QA Engineer,64974,Contract,Senior,Education,Enterprise,Barcelona,True,5,7,91,28
+627,UX Designer,132309,Full-Time,Mid,Retail,Startup,Bogota,True,9,7,103,28
+628,Frontend Developer,41371,Full-Time,Junior,Finance,Large,Valencia,False,5,14,43,36
+629,DevOps Engineer,70084,Contract,Junior,Media,Startup,Buenos Aires,True,7,8,147,57
+630,Software Engineer,86916,Full-Time,Junior,Retail,Enterprise,Barcelona,True,9,9,57,30
+631,Technical Lead,98972,Full-Time,Mid,Telecommunications,SME,Hybrid,False,5,2,196,27
+632,Technical Lead,37984,Full-Time,Junior,Manufacturing,Large,Lima,False,4,7,195,51
+633,UX Designer,58039,Full-Time,Mid,Retail,SME,Lima,False,8,0,84,45
+634,Frontend Developer,110431,Full-Time,Lead,E-commerce,Large,Sevilla,True,10,7,20,6
+635,QA Engineer,108691,Contract,Mid,Education,SME,Bogota,True,6,12,108,39
+636,QA Engineer,83606,Full-Time,Lead,Media,Startup,Barcelona,False,11,6,74,26
+637,Backend Developer,166688,Full-Time,Senior,Healthcare,Enterprise,Madrid,True,10,12,198,13
+638,UX Designer,127665,Part-Time,Mid,Retail,Enterprise,Madrid,False,9,14,145,39
+639,DevOps Engineer,130373,Full-Time,Mid,Technology,Enterprise,Santiago,False,9,7,112,32
+640,Data Scientist,49574,Full-Time,Junior,E-commerce,Large,Bilbao,True,5,0,51,25
+641,DevOps Engineer,159502,Contract,Mid,E-commerce,Enterprise,Buenos Aires,False,8,5,13,15
+642,Systems Administrator,168748,Full-Time,Senior,Technology,Startup,Madrid,False,7,6,195,37
+643,QA Engineer,166888,Contract,Junior,Telecommunications,SME,Bilbao,True,3,13,38,42
+644,QA Engineer,57733,Contract,Mid,Healthcare,SME,Mexico City,False,5,10,161,51
+645,Product Manager,27050,Full-Time,Mid,Manufacturing,Large,Bilbao,True,3,4,169,50
+646,QA Engineer,134996,Full-Time,Director,Education,SME,Bogota,True,6,13,175,34
+647,Software Engineer,58933,Internship,Senior,Media,Startup,Barcelona,True,5,4,90,52
+648,ML Engineer,49951,Full-Time,Senior,Education,Large,Bogota,False,6,6,119,39
+649,UX Designer,57413,Part-Time,Junior,Healthcare,Enterprise,Santiago,False,11,14,68,26
+650,Business Analyst,137573,Full-Time,Senior,Education,SME,Barcelona,False,5,10,156,37
+651,DevOps Engineer,160566,Full-Time,Senior,Technology,Startup,Barcelona,True,8,14,38,24
+652,ML Engineer,147744,Full-Time,Senior,E-commerce,SME,Santiago,False,8,2,180,22
+653,Frontend Developer,114431,Internship,Director,Education,SME,Lima,True,9,5,16,34
+654,Data Scientist,68001,Internship,Mid,Consulting,SME,Bilbao,False,11,6,155,38
+655,Software Engineer,92364,Full-Time,Lead,Retail,Large,Valencia,True,9,0,101,30
+656,Data Analyst,149988,Full-Time,Lead,Healthcare,Large,Lima,True,3,11,125,24
+657,Full Stack Developer,70028,Part-Time,Junior,Telecommunications,Large,Mexico City,True,10,1,145,28
+658,DevOps Engineer,156878,Full-Time,Mid,Consulting,SME,Bilbao,False,7,11,91,32
+659,ML Engineer,149343,Full-Time,Director,Technology,Enterprise,Buenos Aires,True,11,3,106,5
+660,Data Analyst,153301,Part-Time,Junior,Finance,SME,Barcelona,False,7,12,100,32
+661,Data Scientist,151295,Full-Time,Mid,Technology,Large,Santiago,True,7,7,177,15
+662,Product Manager,59636,Internship,Director,Telecommunications,Enterprise,Sevilla,True,4,10,118,33
+663,Data Analyst,49262,Full-Time,Senior,Telecommunications,SME,Hybrid,False,5,12,197,44
+664,Software Engineer,105435,Full-Time,Junior,Consulting,Startup,Buenos Aires,False,11,13,51,38
+665,Software Engineer,153583,Full-Time,Senior,Retail,Enterprise,Buenos Aires,False,9,9,62,16
+666,Business Analyst,66844,Contract,Mid,Healthcare,SME,Santiago,True,3,5,137,41
+667,Product Manager,89754,Full-Time,Mid,Manufacturing,Large,Remote,True,5,0,125,31
+668,Full Stack Developer,102129,Full-Time,Junior,E-commerce,Startup,Bogota,True,4,9,122,22
+669,UX Designer,65042,Full-Time,Senior,Consulting,Large,Bilbao,False,3,4,9,54
+670,Data Analyst,86665,Contract,Mid,Telecommunications,SME,Mexico City,False,11,6,192,31
+671,Product Manager,141953,Full-Time,Senior,Finance,Startup,Santiago,False,10,14,100,25
+672,Software Engineer,170271,Full-Time,Senior,Media,Large,Buenos Aires,False,7,12,25,20
+673,Software Engineer,143533,Part-Time,Mid,Telecommunications,SME,Barcelona,True,4,5,156,29
+674,ML Engineer,98781,Full-Time,Senior,Retail,SME,Bilbao,False,3,12,132,46
+675,QA Engineer,91262,Full-Time,Junior,Retail,Startup,Valencia,False,9,12,128,56
+676,Full Stack Developer,71600,Contract,Senior,Telecommunications,Startup,Remote,False,4,11,150,49
+677,Data Analyst,101898,Full-Time,Junior,Retail,SME,Sevilla,True,3,8,25,42
+678,Business Analyst,174369,Part-Time,Lead,Consulting,Startup,Hybrid,True,4,7,58,41
+679,Business Analyst,55448,Full-Time,Junior,Telecommunications,Enterprise,Buenos Aires,True,9,14,142,21
+680,Data Analyst,51172,Contract,Mid,Telecommunications,Startup,Santiago,True,9,3,156,39
+681,Systems Administrator,32657,Full-Time,Senior,Healthcare,Large,Buenos Aires,True,8,12,108,23
+682,Technical Lead,137855,Full-Time,Mid,E-commerce,Startup,Madrid,True,7,10,115,37
+683,Data Scientist,32906,Internship,Junior,Finance,SME,Sevilla,False,5,11,120,62
+684,Business Analyst,86413,Contract,Senior,Retail,Enterprise,Madrid,True,5,4,192,30
+685,Product Manager,79028,Full-Time,Senior,Healthcare,SME,Santiago,True,11,6,61,21
+686,Data Scientist,32287,Full-Time,Senior,Manufacturing,Enterprise,Bilbao,True,6,7,132,32
+687,Product Manager,58660,Contract,Mid,Manufacturing,SME,Bogota,False,11,4,155,44
+688,Frontend Developer,85504,Full-Time,Senior,Education,Large,Barcelona,False,6,8,154,29
+689,Software Engineer,127979,Contract,Mid,Consulting,Large,Barcelona,False,4,13,166,41
+690,QA Engineer,59701,Contract,Senior,Consulting,Enterprise,Sevilla,True,6,9,124,23
+691,ML Engineer,108300,Full-Time,Senior,Technology,Large,Remote,False,8,11,74,36
+692,Business Analyst,173746,Full-Time,Mid,Finance,Large,Mexico City,True,8,3,160,17
+693,QA Engineer,108560,Part-Time,Mid,Telecommunications,SME,Bilbao,True,7,3,99,21
+694,QA Engineer,179946,Full-Time,Junior,Retail,SME,Buenos Aires,True,3,12,103,33
+695,QA Engineer,68642,Full-Time,Junior,Finance,Enterprise,Madrid,True,5,7,171,14
+696,Technical Lead,90160,Internship,Junior,Education,SME,Hybrid,True,7,0,46,41
+697,Data Scientist,42602,Full-Time,Mid,Technology,SME,Mexico City,False,8,7,155,32
+698,Product Manager,128320,Contract,Senior,Healthcare,Large,Valencia,False,3,4,74,37
+699,Product Owner,113801,Full-Time,Mid,Finance,SME,Santiago,True,11,12,6,17
+700,Frontend Developer,50931,Full-Time,Lead,Healthcare,Enterprise,Madrid,False,5,13,156,36
+701,DevOps Engineer,119377,Full-Time,Junior,Manufacturing,Large,Hybrid,True,5,10,149,35
+702,QA Engineer,54192,Full-Time,Senior,Retail,Large,Barcelona,True,4,0,113,36
+703,UX Designer,71542,Full-Time,Senior,Education,Enterprise,Mexico City,False,10,3,69,37
+704,Data Scientist,152015,Full-Time,Mid,Telecommunications,Startup,Valencia,False,5,1,74,41
+705,Business Analyst,67520,Contract,Junior,Retail,SME,Mexico City,True,8,3,73,42
+706,Full Stack Developer,89772,Full-Time,Senior,E-commerce,Large,Bogota,True,4,7,125,21
+707,Business Analyst,75106,Full-Time,Mid,Consulting,SME,Mexico City,False,9,4,113,30
+708,ML Engineer,106121,Full-Time,Lead,Education,Large,Santiago,False,6,0,64,38
+709,DevOps Engineer,50559,Full-Time,Mid,Finance,Enterprise,Lima,False,11,6,182,26
+710,Product Owner,130595,Full-Time,Lead,Retail,SME,Madrid,True,11,0,97,31
+711,UX Designer,58742,Full-Time,Mid,Media,SME,Sevilla,True,9,8,16,35
+712,Business Analyst,94669,Full-Time,Senior,Consulting,Enterprise,Valencia,True,10,2,107,10
+713,Product Owner,177826,Full-Time,Senior,Consulting,SME,Hybrid,True,5,11,179,27
+714,DevOps Engineer,160044,Full-Time,Senior,Media,Large,Sevilla,False,7,2,199,27
+715,QA Engineer,95831,Contract,Mid,Technology,SME,Bogota,False,4,14,116,48
+716,UX Designer,137217,Full-Time,Senior,Technology,Enterprise,Mexico City,True,9,14,69,16
+717,Product Owner,66873,Full-Time,Mid,Media,Large,Barcelona,False,10,5,159,32
+718,ML Engineer,131532,Full-Time,Senior,E-commerce,Large,Barcelona,False,11,9,52,28
+719,Product Manager,151267,Full-Time,Mid,Manufacturing,Enterprise,Valencia,True,9,5,92,24
+720,Software Engineer,165975,Contract,Lead,Media,SME,Bilbao,False,10,12,66,30
+721,Product Manager,159092,Full-Time,Junior,Manufacturing,SME,Barcelona,False,11,10,48,39
+722,DevOps Engineer,66755,Full-Time,Lead,Retail,Enterprise,Madrid,False,8,10,151,33
+723,Data Scientist,110956,Full-Time,Lead,E-commerce,SME,Lima,True,4,5,191,28
+724,Software Engineer,111988,Full-Time,Lead,Education,Large,Hybrid,False,4,12,140,46
+725,Frontend Developer,70648,Full-Time,Mid,Manufacturing,Enterprise,Sevilla,False,6,0,59,41
+726,ML Engineer,150991,Full-Time,Mid,Consulting,Large,Sevilla,True,11,4,112,8
+727,Frontend Developer,165588,Contract,Director,Retail,Large,Madrid,True,9,11,51,16
+728,Technical Lead,140005,Full-Time,Mid,Consulting,Enterprise,Mexico City,False,4,5,6,22
+729,UX Designer,27396,Full-Time,Mid,E-commerce,Enterprise,Lima,True,10,7,117,22
+730,Data Analyst,109082,Full-Time,Senior,Manufacturing,SME,Barcelona,False,9,12,171,36
+731,Software Engineer,175201,Full-Time,Senior,Healthcare,Startup,Barcelona,False,11,0,177,31
+732,Frontend Developer,153322,Full-Time,Mid,E-commerce,SME,Bogota,True,10,4,164,22
+733,Business Analyst,157663,Part-Time,Senior,E-commerce,Large,Santiago,True,5,2,197,33
+734,Frontend Developer,36303,Contract,Lead,Healthcare,Large,Madrid,False,3,1,170,43
+735,Product Owner,96719,Full-Time,Junior,Retail,Large,Santiago,True,4,10,15,31
+736,Product Manager,124616,Contract,Lead,Manufacturing,SME,Valencia,False,4,7,142,55
+737,Product Owner,149165,Internship,Junior,Manufacturing,Large,Sevilla,False,6,6,116,41
+738,Technical Lead,111231,Contract,Mid,Consulting,SME,Bogota,False,8,9,191,29
+739,Software Engineer,32314,Full-Time,Junior,E-commerce,Large,Bogota,False,6,6,94,50
+740,Software Engineer,44623,Part-Time,Junior,E-commerce,Large,Sevilla,False,11,4,59,43
+741,Technical Lead,130228,Full-Time,Lead,Telecommunications,SME,Remote,True,6,11,152,27
+742,DevOps Engineer,122624,Internship,Mid,Education,SME,Sevilla,False,8,12,21,47
+743,Product Owner,136785,Full-Time,Mid,E-commerce,Large,Bogota,False,8,8,72,24
+744,Backend Developer,111206,Full-Time,Mid,Finance,Large,Buenos Aires,True,3,4,137,23
+745,Business Analyst,94274,Part-Time,Senior,Education,SME,Lima,True,10,1,192,31
+746,Full Stack Developer,158541,Full-Time,Senior,Finance,Enterprise,Remote,False,5,2,155,20
+747,Product Manager,78947,Internship,Mid,Manufacturing,Large,Madrid,True,8,3,178,35
+748,Software Engineer,178606,Internship,Mid,Education,Enterprise,Remote,False,5,14,56,35
+749,DevOps Engineer,73874,Part-Time,Lead,E-commerce,SME,Lima,False,4,4,142,34
+750,Data Analyst,74708,Full-Time,Mid,Healthcare,Large,Bogota,True,7,12,178,27
+751,Business Analyst,99553,Part-Time,Mid,Consulting,Enterprise,Barcelona,False,3,2,160,37
+752,Product Owner,93344,Full-Time,Mid,Finance,Large,Bogota,True,11,11,101,25
+753,Product Manager,74138,Full-Time,Senior,Education,Large,Lima,True,9,13,175,27
+754,Data Analyst,72638,Contract,Mid,E-commerce,SME,Valencia,False,5,6,158,41
+755,Product Owner,103249,Full-Time,Mid,Education,SME,Hybrid,True,6,4,187,33
+756,Frontend Developer,130865,Full-Time,Mid,E-commerce,Startup,Madrid,False,8,4,52,38
+757,Data Analyst,27719,Internship,Director,E-commerce,SME,Barcelona,False,5,5,33,52
+758,Technical Lead,178962,Full-Time,Mid,E-commerce,Startup,Buenos Aires,False,9,6,31,35
+759,Systems Administrator,67534,Full-Time,Senior,Telecommunications,Startup,Santiago,True,8,9,150,36
+760,DevOps Engineer,117241,Internship,Mid,Consulting,Enterprise,Mexico City,True,11,9,108,19
+761,Product Manager,174859,Full-Time,Mid,Healthcare,SME,Madrid,False,7,7,64,29
+762,QA Engineer,151209,Contract,Senior,Healthcare,Large,Hybrid,False,6,8,110,27
+763,Systems Administrator,117124,Internship,Mid,Education,Enterprise,Madrid,False,5,10,73,38
+764,UX Designer,116659,Internship,Lead,Education,Large,Barcelona,False,3,3,118,42
+765,UX Designer,100713,Part-Time,Lead,E-commerce,SME,Madrid,True,5,4,25,41
+766,Product Manager,100418,Full-Time,Lead,Telecommunications,Large,Santiago,True,5,14,156,25
+767,Data Analyst,153232,Full-Time,Junior,E-commerce,Large,Remote,False,9,4,106,24
+768,Product Owner,169059,Contract,Senior,Telecommunications,Large,Mexico City,True,9,7,135,15
+769,DevOps Engineer,56575,Contract,Mid,E-commerce,Large,Lima,True,3,8,99,37
+770,Full Stack Developer,88852,Full-Time,Lead,Finance,Enterprise,Madrid,False,5,6,194,31
+771,UX Designer,157079,Full-Time,Senior,Finance,Large,Buenos Aires,True,10,14,109,13
+772,DevOps Engineer,101242,Full-Time,Lead,Manufacturing,SME,Bilbao,True,11,4,129,31
+773,UX Designer,54257,Full-Time,Mid,E-commerce,Large,Buenos Aires,True,9,2,6,21
+774,Frontend Developer,169353,Part-Time,Mid,Consulting,Startup,Madrid,False,9,0,70,38
+775,Product Owner,86246,Full-Time,Junior,Manufacturing,Enterprise,Mexico City,False,10,10,117,31
+776,Frontend Developer,26435,Internship,Senior,Education,Startup,Buenos Aires,False,8,8,174,60
+777,Business Analyst,116357,Part-Time,Mid,Retail,SME,Bogota,False,5,4,166,56
+778,UX Designer,161156,Full-Time,Mid,E-commerce,Enterprise,Buenos Aires,True,3,8,46,20
+779,QA Engineer,169579,Full-Time,Senior,Finance,Large,Barcelona,False,9,9,24,27
+780,QA Engineer,108807,Full-Time,Senior,Retail,SME,Mexico City,True,3,14,101,37
+781,Frontend Developer,140953,Full-Time,Mid,Telecommunications,Large,Barcelona,True,3,11,72,22
+782,Technical Lead,163563,Part-Time,Senior,Retail,Enterprise,Lima,False,11,12,177,28
+783,Systems Administrator,148797,Contract,Mid,Consulting,SME,Santiago,False,9,13,79,32
+784,QA Engineer,88888,Contract,Mid,E-commerce,Enterprise,Barcelona,True,6,3,129,24
+785,UX Designer,98609,Full-Time,Junior,Healthcare,Startup,Hybrid,True,8,4,174,37
+786,Product Manager,34077,Full-Time,Mid,Retail,Large,Buenos Aires,False,3,3,51,48
+787,Frontend Developer,45953,Part-Time,Mid,Healthcare,Enterprise,Madrid,True,9,1,9,27
+788,Business Analyst,139682,Full-Time,Senior,Telecommunications,SME,Santiago,True,8,11,53,26
+789,Full Stack Developer,92889,Full-Time,Junior,Manufacturing,SME,Valencia,True,6,0,128,47
+790,Full Stack Developer,179893,Full-Time,Mid,Healthcare,SME,Bogota,True,9,7,41,19
+791,Data Scientist,140374,Part-Time,Lead,Manufacturing,Large,Bogota,False,5,3,166,41
+792,Systems Administrator,49860,Full-Time,Junior,Finance,Large,Hybrid,True,3,4,150,42
+793,Data Analyst,177267,Part-Time,Mid,E-commerce,Large,Buenos Aires,True,6,5,23,21
+794,Product Owner,102475,Internship,Senior,Retail,SME,Bilbao,False,5,13,44,51
+795,QA Engineer,112266,Full-Time,Lead,Finance,SME,Bogota,False,3,7,21,40
+796,QA Engineer,177499,Full-Time,Senior,Finance,Startup,Barcelona,True,4,10,192,32
+797,Data Analyst,125732,Full-Time,Senior,Media,SME,Buenos Aires,True,7,7,103,22
+798,Software Engineer,52083,Contract,Lead,Technology,Large,Buenos Aires,True,10,6,97,16
+799,Business Analyst,82372,Full-Time,Mid,Consulting,Enterprise,Madrid,False,3,3,46,35
+800,Backend Developer,148786,Full-Time,Lead,Manufacturing,Large,Bilbao,False,6,5,127,31
+801,Frontend Developer,32813,Full-Time,Junior,Media,SME,Lima,False,6,3,111,42
+802,Technical Lead,56598,Contract,Lead,Technology,Enterprise,Lima,False,7,14,76,27
+803,Business Analyst,118106,Full-Time,Mid,Consulting,Large,Madrid,False,9,13,69,29
+804,ML Engineer,52082,Contract,Senior,Manufacturing,Enterprise,Madrid,False,10,6,113,35
+805,QA Engineer,54241,Internship,Mid,E-commerce,Large,Valencia,False,8,11,57,51
+806,Product Owner,36745,Full-Time,Senior,Consulting,SME,Lima,True,3,12,139,28
+807,Data Scientist,51029,Contract,Junior,Retail,Startup,Madrid,False,9,11,137,63
+808,Full Stack Developer,169097,Full-Time,Lead,Finance,Large,Mexico City,True,5,14,28,14
+809,QA Engineer,148395,Contract,Lead,Technology,Startup,Madrid,True,8,12,32,24
+810,Data Scientist,170360,Part-Time,Mid,Technology,SME,Santiago,False,10,12,66,24
+811,UX Designer,114186,Contract,Lead,Technology,Large,Sevilla,True,9,10,21,21
+812,Business Analyst,162612,Full-Time,Senior,Manufacturing,Large,Bogota,False,8,13,24,21
+813,UX Designer,122768,Full-Time,Senior,Retail,Large,Barcelona,False,11,0,7,32
+814,Backend Developer,66846,Full-Time,Mid,Consulting,SME,Santiago,True,11,4,169,18
+815,Product Manager,100932,Full-Time,Mid,Finance,SME,Barcelona,False,3,14,147,33
+816,ML Engineer,173554,Full-Time,Mid,Retail,Large,Mexico City,True,3,13,55,25
+817,Business Analyst,48411,Full-Time,Mid,Media,Enterprise,Lima,True,3,9,180,29
+818,Software Engineer,103797,Full-Time,Lead,E-commerce,Large,Madrid,False,10,11,140,27
+819,Backend Developer,77307,Full-Time,Junior,Healthcare,Enterprise,Lima,False,9,14,145,37
+820,DevOps Engineer,159165,Contract,Lead,Retail,Large,Santiago,False,5,9,180,33
+821,Software Engineer,47042,Full-Time,Mid,Media,Large,Madrid,True,4,14,7,36
+822,Systems Administrator,77930,Full-Time,Mid,Finance,SME,Bilbao,False,6,3,197,40
+823,Frontend Developer,122883,Full-Time,Senior,Healthcare,Large,Barcelona,True,5,10,77,21
+824,Product Owner,58756,Full-Time,Lead,Healthcare,Large,Mexico City,False,9,6,163,32
+825,Business Analyst,78268,Internship,Mid,Retail,Large,Bogota,True,10,12,109,38
+826,DevOps Engineer,73901,Full-Time,Mid,Technology,Large,Madrid,False,8,8,122,31
+827,DevOps Engineer,124986,Part-Time,Mid,Education,Large,Buenos Aires,True,5,4,158,26
+828,Backend Developer,153386,Internship,Junior,Finance,SME,Bogota,True,8,3,188,33
+829,Data Analyst,30626,Contract,Mid,Technology,Large,Remote,False,4,14,38,50
+830,Systems Administrator,163496,Part-Time,Mid,Finance,SME,Buenos Aires,False,9,8,141,27
+831,Product Manager,37857,Contract,Mid,Education,Enterprise,Hybrid,False,9,4,66,27
+832,Business Analyst,176054,Internship,Senior,E-commerce,SME,Buenos Aires,False,6,8,124,38
+833,Data Analyst,158052,Full-Time,Mid,Education,Startup,Sevilla,False,10,7,119,44
+834,Backend Developer,51431,Full-Time,Mid,Telecommunications,SME,Lima,False,6,3,17,49
+835,Frontend Developer,109976,Full-Time,Mid,Retail,Large,Buenos Aires,True,9,10,73,23
+836,Full Stack Developer,107711,Full-Time,Senior,Retail,SME,Buenos Aires,False,6,10,173,44
+837,QA Engineer,51385,Full-Time,Lead,Media,SME,Buenos Aires,True,7,6,81,36
+838,QA Engineer,179091,Full-Time,Mid,Technology,Large,Lima,False,9,4,5,30
+839,Product Manager,43639,Full-Time,Senior,Media,SME,Lima,False,5,9,93,38
+840,Frontend Developer,110530,Full-Time,Mid,Telecommunications,Enterprise,Sevilla,False,7,3,51,21
+841,Technical Lead,46563,Full-Time,Mid,Education,Enterprise,Sevilla,False,5,4,8,29
+842,Product Manager,140672,Full-Time,Mid,Retail,Large,Buenos Aires,False,7,4,195,31
+843,Business Analyst,161848,Full-Time,Mid,Manufacturing,SME,Santiago,False,5,10,184,47
+844,Business Analyst,164783,Full-Time,Senior,Education,Large,Barcelona,True,9,14,14,15
+845,Data Scientist,107970,Full-Time,Lead,Education,Startup,Bogota,False,3,8,32,42
+846,Data Analyst,110553,Contract,Junior,Telecommunications,Large,Buenos Aires,True,11,11,125,24
+847,Technical Lead,107879,Full-Time,Senior,E-commerce,SME,Sevilla,False,11,8,130,27
+848,QA Engineer,161727,Full-Time,Senior,Finance,Enterprise,Madrid,True,7,5,138,5
+849,DevOps Engineer,69859,Part-Time,Junior,Telecommunications,Startup,Barcelona,True,11,13,159,36
+850,Data Analyst,77098,Full-Time,Mid,Finance,Large,Remote,True,8,3,144,23
+851,ML Engineer,171323,Full-Time,Mid,Retail,Large,Valencia,True,7,14,66,29
+852,Business Analyst,147413,Contract,Junior,Telecommunications,Large,Barcelona,False,5,1,184,33
+853,Systems Administrator,25526,Contract,Mid,Finance,Startup,Bilbao,True,10,13,180,33
+854,Product Owner,93760,Full-Time,Mid,Media,Enterprise,Valencia,False,6,2,71,41
+855,Frontend Developer,72837,Full-Time,Mid,Telecommunications,Large,Madrid,True,5,1,178,28
+856,Software Engineer,36536,Internship,Senior,Retail,Large,Valencia,False,8,4,78,52
+857,Product Manager,53541,Full-Time,Senior,Telecommunications,SME,Buenos Aires,False,10,5,99,38
+858,Business Analyst,104083,Full-Time,Director,Retail,Large,Buenos Aires,False,11,10,147,19
+859,Data Analyst,59531,Contract,Mid,Telecommunications,SME,Sevilla,False,8,4,40,42
+860,Technical Lead,33712,Full-Time,Senior,Finance,Startup,Bilbao,True,7,1,146,27
+861,Product Owner,129101,Full-Time,Lead,E-commerce,Startup,Hybrid,False,4,11,116,38
+862,Systems Administrator,90455,Full-Time,Senior,Consulting,Enterprise,Sevilla,True,4,4,135,28
+863,Data Analyst,99744,Contract,Mid,Finance,SME,Valencia,False,11,8,117,26
+864,Software Engineer,154749,Full-Time,Senior,Technology,SME,Valencia,False,4,3,114,25
+865,Product Owner,30109,Part-Time,Mid,Healthcare,Large,Bilbao,True,4,11,118,50
+866,ML Engineer,74268,Full-Time,Mid,E-commerce,Large,Bogota,False,5,9,71,30
+867,Software Engineer,79615,Full-Time,Mid,Media,Startup,Barcelona,False,5,1,130,42
+868,Backend Developer,107503,Full-Time,Senior,Education,Large,Mexico City,True,6,2,90,35
+869,UX Designer,110708,Part-Time,Junior,Finance,Startup,Madrid,True,9,2,23,29
+870,Backend Developer,127471,Full-Time,Lead,Telecommunications,Startup,Bilbao,True,11,8,186,30
+871,QA Engineer,108309,Full-Time,Senior,Finance,Startup,Bogota,False,4,3,73,42
+872,Data Analyst,151446,Contract,Mid,Manufacturing,Enterprise,Sevilla,False,6,14,14,40
+873,Business Analyst,131661,Full-Time,Lead,E-commerce,Startup,Santiago,True,11,0,165,21
+874,Business Analyst,31154,Internship,Mid,Consulting,Startup,Barcelona,True,4,0,145,60
+875,Business Analyst,177876,Full-Time,Director,Media,SME,Bogota,False,3,14,132,31
+876,Systems Administrator,89288,Part-Time,Mid,Manufacturing,Enterprise,Madrid,False,10,6,103,33
+877,UX Designer,76195,Full-Time,Junior,Retail,SME,Lima,True,11,6,183,24
+878,Backend Developer,45581,Internship,Senior,Manufacturing,SME,Barcelona,True,9,1,36,51
+879,UX Designer,55087,Full-Time,Senior,Finance,Startup,Lima,False,10,8,116,39
+880,Full Stack Developer,94298,Full-Time,Senior,Media,SME,Sevilla,True,6,8,28,26
+881,Data Analyst,71167,Full-Time,Director,Finance,Large,Mexico City,True,6,4,39,13
+882,UX Designer,64499,Full-Time,Senior,Retail,Large,Valencia,False,4,14,87,45
+883,DevOps Engineer,150816,Full-Time,Senior,Education,SME,Remote,False,10,14,74,38
+884,Product Manager,121347,Internship,Lead,Media,SME,Madrid,True,4,2,172,40
+885,Product Manager,73787,Full-Time,Senior,Education,Startup,Barcelona,True,11,2,186,29
+886,DevOps Engineer,60488,Contract,Mid,E-commerce,SME,Buenos Aires,True,6,11,113,31
+887,Product Owner,99441,Full-Time,Lead,E-commerce,Startup,Madrid,True,3,2,176,41
+888,Data Scientist,47431,Part-Time,Mid,Education,Large,Barcelona,False,6,5,194,44
+889,Systems Administrator,86681,Full-Time,Senior,E-commerce,Enterprise,Remote,True,5,3,103,17
+890,Product Owner,147720,Full-Time,Lead,Media,Enterprise,Hybrid,False,8,7,37,25
+891,Software Engineer,74153,Contract,Senior,Telecommunications,Enterprise,Sevilla,False,9,14,60,31
+892,Technical Lead,31368,Internship,Senior,Technology,Large,Remote,True,10,12,168,32
+893,Systems Administrator,137360,Full-Time,Senior,E-commerce,Large,Buenos Aires,True,4,10,186,17
+894,Systems Administrator,137755,Full-Time,Mid,E-commerce,SME,Valencia,False,8,12,151,37
+895,Software Engineer,81985,Full-Time,Lead,Finance,Large,Mexico City,False,8,10,175,21
+896,UX Designer,75069,Internship,Mid,Education,Large,Mexico City,False,7,10,16,47
+897,Backend Developer,77326,Full-Time,Junior,Healthcare,Large,Hybrid,True,9,4,15,19
+898,Backend Developer,133737,Full-Time,Mid,Consulting,Large,Valencia,False,5,0,74,37
+899,Product Manager,179470,Contract,Mid,Manufacturing,SME,Mexico City,False,6,8,144,41
+900,Frontend Developer,75861,Full-Time,Mid,E-commerce,SME,Madrid,False,11,0,45,28
+901,Product Owner,100897,Full-Time,Lead,Manufacturing,Enterprise,Madrid,True,6,5,157,28
+902,Full Stack Developer,152118,Full-Time,Mid,Media,Startup,Madrid,False,5,0,110,35
+903,Data Analyst,93577,Internship,Mid,Healthcare,Large,Hybrid,False,4,2,7,50
+904,QA Engineer,34078,Full-Time,Junior,Consulting,Enterprise,Bogota,True,7,14,7,26
+905,ML Engineer,87768,Full-Time,Mid,Education,Large,Bogota,False,6,9,88,33
+906,Backend Developer,76047,Full-Time,Senior,Technology,Large,Buenos Aires,True,10,4,160,14
+907,Data Analyst,96626,Full-Time,Junior,Consulting,SME,Valencia,True,9,14,155,25
+908,ML Engineer,82660,Full-Time,Mid,Consulting,SME,Barcelona,True,8,9,180,26
+909,Data Analyst,157997,Full-Time,Mid,Technology,Enterprise,Valencia,False,4,6,199,20
+910,UX Designer,142832,Full-Time,Junior,Telecommunications,Large,Sevilla,True,5,13,174,27
+911,ML Engineer,155406,Full-Time,Mid,Education,Large,Bogota,False,11,9,111,19
+912,QA Engineer,150150,Full-Time,Junior,Finance,Startup,Buenos Aires,False,11,7,172,19
+913,Data Analyst,58320,Full-Time,Senior,Manufacturing,Startup,Madrid,True,7,11,138,53
+914,DevOps Engineer,89881,Contract,Lead,E-commerce,Enterprise,Madrid,False,5,8,24,30
+915,QA Engineer,115827,Full-Time,Mid,Consulting,SME,Madrid,False,4,5,143,49
+916,ML Engineer,127215,Contract,Director,Media,Large,Bilbao,False,10,14,100,21
+917,QA Engineer,159461,Contract,Mid,Technology,Startup,Remote,False,8,10,128,40
+918,Data Analyst,169701,Full-Time,Mid,Manufacturing,Large,Santiago,False,9,8,159,35
+919,Data Scientist,86550,Full-Time,Director,Healthcare,Enterprise,Bogota,True,3,7,25,21
+920,Data Analyst,49826,Full-Time,Mid,Technology,Large,Bilbao,False,3,8,118,35
+921,Data Analyst,125734,Full-Time,Lead,Healthcare,Startup,Sevilla,True,4,9,17,32
+922,UX Designer,123511,Full-Time,Junior,Education,Large,Madrid,False,5,3,90,43
+923,Product Owner,36653,Full-Time,Mid,Consulting,Large,Lima,True,3,8,39,38
+924,DevOps Engineer,106941,Full-Time,Junior,Media,SME,Bogota,False,7,14,51,41
+925,Full Stack Developer,58662,Contract,Senior,E-commerce,Enterprise,Barcelona,False,5,6,160,38
+926,Backend Developer,123818,Full-Time,Senior,Healthcare,Large,Buenos Aires,False,3,4,153,38
+927,Systems Administrator,177360,Contract,Senior,Manufacturing,Enterprise,Buenos Aires,True,10,4,150,15
+928,Software Engineer,120081,Full-Time,Mid,Telecommunications,Large,Santiago,True,8,0,163,13
+929,Product Owner,61877,Contract,Mid,Education,Startup,Remote,False,11,1,192,48
+930,Software Engineer,136562,Full-Time,Junior,Telecommunications,SME,Santiago,False,5,9,129,36
+931,UX Designer,171385,Full-Time,Mid,Education,SME,Buenos Aires,True,11,2,114,23
+932,DevOps Engineer,97715,Part-Time,Lead,Finance,Enterprise,Madrid,False,11,13,41,27
+933,Business Analyst,166398,Full-Time,Mid,Manufacturing,Large,Madrid,False,3,13,25,42
+934,Data Analyst,135091,Full-Time,Lead,Telecommunications,Large,Barcelona,True,5,7,18,27
+935,Business Analyst,157632,Internship,Lead,Media,SME,Madrid,False,8,5,95,34
+936,Business Analyst,104148,Full-Time,Mid,Consulting,SME,Bogota,False,10,11,64,37
+937,Technical Lead,108186,Full-Time,Senior,Technology,Large,Mexico City,False,6,9,128,38
+938,Product Manager,176094,Part-Time,Junior,E-commerce,Large,Barcelona,True,7,10,27,25
+939,Business Analyst,148629,Contract,Junior,Consulting,SME,Lima,False,11,12,115,43
+940,Backend Developer,95316,Part-Time,Junior,Consulting,Large,Barcelona,False,8,14,128,34
+941,Data Scientist,53380,Full-Time,Senior,Education,Startup,Valencia,True,9,13,161,34
+942,Product Manager,135198,Part-Time,Mid,Media,SME,Valencia,False,9,4,179,41
+943,UX Designer,27356,Full-Time,Mid,Education,Large,Sevilla,False,6,12,34,45
+944,Systems Administrator,95326,Part-Time,Mid,Retail,Startup,Valencia,False,6,0,119,51
+945,Product Owner,117447,Internship,Mid,Healthcare,Enterprise,Buenos Aires,True,6,11,94,32
+946,Data Scientist,139994,Part-Time,Senior,E-commerce,SME,Sevilla,False,7,10,42,36
+947,QA Engineer,45049,Contract,Senior,Healthcare,Startup,Hybrid,False,7,11,87,46
+948,ML Engineer,130361,Full-Time,Junior,Technology,SME,Madrid,True,10,8,31,24
+949,Technical Lead,41082,Part-Time,Mid,Retail,Large,Barcelona,True,11,2,108,39
+950,Data Scientist,25661,Contract,Senior,Manufacturing,SME,Madrid,False,4,2,120,54
+951,Full Stack Developer,27920,Full-Time,Mid,Technology,Large,Santiago,False,9,1,19,38
+952,Business Analyst,104561,Contract,Senior,Technology,Startup,Madrid,True,3,3,191,35
+953,UX Designer,33946,Full-Time,Mid,Finance,Startup,Lima,False,3,11,7,48
+954,Frontend Developer,41309,Part-Time,Mid,E-commerce,SME,Buenos Aires,True,6,1,14,45
+955,ML Engineer,80230,Contract,Junior,Education,Enterprise,Buenos Aires,False,9,12,124,39
+956,Software Engineer,136822,Part-Time,Mid,Media,Enterprise,Santiago,False,4,8,149,25
+957,Backend Developer,137340,Full-Time,Senior,Healthcare,Startup,Barcelona,False,4,11,132,39
+958,Software Engineer,84321,Full-Time,Mid,Technology,Large,Barcelona,True,3,9,15,33
+959,Data Scientist,157028,Full-Time,Senior,Healthcare,Enterprise,Valencia,False,4,6,180,25
+960,Systems Administrator,99131,Internship,Lead,Healthcare,SME,Santiago,True,9,7,137,36
+961,Software Engineer,50963,Full-Time,Mid,Manufacturing,Enterprise,Barcelona,True,11,2,73,25
+962,Full Stack Developer,126757,Full-Time,Senior,E-commerce,Startup,Madrid,False,8,5,68,33
+963,UX Designer,124259,Part-Time,Mid,E-commerce,Enterprise,Hybrid,False,4,14,18,31
+964,QA Engineer,64063,Full-Time,Mid,Telecommunications,Large,Madrid,True,11,9,54,27
+965,Systems Administrator,139225,Full-Time,Senior,Consulting,Enterprise,Bogota,False,9,5,158,21
+966,Product Owner,141400,Full-Time,Mid,E-commerce,Large,Bogota,False,3,12,76,34
+967,Backend Developer,105818,Contract,Senior,Healthcare,SME,Valencia,True,11,0,73,24
+968,Full Stack Developer,29703,Full-Time,Junior,Education,Enterprise,Barcelona,False,4,5,139,43
+969,Full Stack Developer,97099,Full-Time,Senior,Healthcare,SME,Barcelona,False,6,12,131,35
+970,Software Engineer,56585,Full-Time,Lead,Education,SME,Mexico City,False,11,13,20,42
+971,Business Analyst,178087,Full-Time,Lead,Telecommunications,Large,Mexico City,False,6,2,187,30
+972,Software Engineer,68585,Full-Time,Senior,Education,Large,Bogota,False,5,10,82,37
+973,Data Scientist,51958,Full-Time,Senior,E-commerce,Enterprise,Remote,True,3,2,105,26
+974,Product Owner,51017,Full-Time,Senior,Manufacturing,SME,Mexico City,False,9,2,60,46
+975,Product Manager,149677,Part-Time,Senior,Education,Large,Barcelona,False,8,9,109,35
+976,Systems Administrator,168273,Full-Time,Junior,Healthcare,Large,Valencia,True,6,10,136,26
+977,Software Engineer,54426,Contract,Mid,Media,Startup,Lima,False,8,14,52,44
+978,UX Designer,42778,Internship,Mid,E-commerce,SME,Barcelona,False,8,10,21,43
+979,Frontend Developer,67229,Contract,Director,Media,SME,Madrid,False,6,14,115,49
+980,Backend Developer,111652,Part-Time,Mid,Retail,SME,Mexico City,True,8,9,168,45
+981,Data Analyst,153267,Full-Time,Mid,Retail,Enterprise,Sevilla,True,10,10,74,8
+982,Software Engineer,151503,Full-Time,Mid,Healthcare,Large,Remote,False,5,7,84,30
+983,UX Designer,109878,Full-Time,Senior,Retail,Large,Mexico City,True,6,12,97,33
+984,Systems Administrator,82056,Full-Time,Senior,Consulting,Enterprise,Madrid,False,3,4,42,21
+985,UX Designer,44975,Internship,Mid,Telecommunications,SME,Remote,True,6,3,105,41
+986,Backend Developer,179351,Contract,Mid,E-commerce,Enterprise,Valencia,True,11,12,66,9
+987,Product Manager,167633,Full-Time,Lead,Media,SME,Sevilla,True,10,8,125,16
+988,UX Designer,113397,Full-Time,Mid,Healthcare,Enterprise,Sevilla,True,6,8,52,20
+989,Frontend Developer,58142,Contract,Mid,Consulting,SME,Madrid,False,9,0,14,48
+990,UX Designer,51916,Full-Time,Senior,Healthcare,Enterprise,Buenos Aires,False,5,1,40,29
+991,UX Designer,89324,Full-Time,Lead,Consulting,SME,Madrid,True,11,7,161,20
+992,UX Designer,150932,Contract,Junior,Retail,SME,Sevilla,True,6,4,8,36
+993,QA Engineer,160720,Full-Time,Senior,Retail,Large,Sevilla,False,4,6,48,36
+994,QA Engineer,121059,Full-Time,Lead,Education,SME,Bogota,True,7,0,60,28
+995,Product Manager,123317,Full-Time,Mid,Finance,Large,Bogota,False,4,11,46,44
+996,Software Engineer,60046,Contract,Director,Healthcare,SME,Barcelona,False,8,9,118,46
+997,UX Designer,126459,Full-Time,Senior,Education,Large,Sevilla,False,3,11,145,29
+998,Technical Lead,70893,Full-Time,Senior,E-commerce,SME,Sevilla,False,8,4,178,30
+999,Product Owner,126520,Full-Time,Senior,Education,Startup,Barcelona,False,6,10,165,39
+1000,Technical Lead,150818,Full-Time,Junior,Technology,SME,Bogota,False,5,11,25,31
