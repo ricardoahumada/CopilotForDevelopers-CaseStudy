@@ -1,8 +1,8 @@
 # Checklist de Verificación de Implementación
 /speckit.checklist Validar la implementación en src/ contra:
-- El spec.md original en specs/001-mi-feature/
+- El spec.md original en specs/001-user-auth/
 - Las decisiones arquitectónicas de plan.md.
-- Los principios de Constitution.md (calidad del código, pruebas, seguridad)
+- Los principios de constitution.md (calidad del código, pruebas, seguridad)
 
 Centrarse en:
 1. Cobertura de los criterios de aceptación: verificar que cada criterio tenga el código correspondiente
@@ -11,3 +11,9 @@ Centrarse en:
 4. Se manejan los casos extremos de spec.md
 5. Se implementan los requisitos de seguridad (autenticación, validación).
 6. No hay valores codificados ni secretos en el código.
+
+
+--
+
+# Prompt de analyze para revisar el checklist
+/speckit.analyze Revisar los elementos del checklist y verificar cada uno
