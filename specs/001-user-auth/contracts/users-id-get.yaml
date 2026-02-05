@@ -1,0 +1,160 @@
+openapi: 3.0.3
+info:
+  title: Portal Empleo API - Get User by ID
+  version: 1.0.0
+  description: Endpoint for retrieving another user's public profile by ID
+
+servers:
+  - url: http://localhost:5000
+    description: Development server
+  - url: https://api.portalempleo.com
+    description: Production server
+
+paths:
+  /api/v1/users/{id}:
+    get:
+      tags:
+        - Users
+      summary: Get user profile by ID
+      description: |
+        Returns the public profile of a user by their unique identifier.
+        Requires valid JWT access token in Authorization header.
+        Only returns active users (soft deleted users return 404).
+        Sensitive fields like passwordHash are never exposed.
+      operationId: getUserById
+      security:
+        - BearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: "User unique identifier (UUID)"
+          schema:
+            type: string
+            format: uuid
+          example: "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      responses:
+        '200':
+          description: User profile retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserDto'
+              example:
+                id: "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+                email: "maria.lopez@example.com"
+                firstName: "María"
+                lastName: "López"
+                phoneNumber: "+34687654321"
+                dateOfBirth: "1992-07-20"
+                role: "CANDIDATE"
+                createdAt: "2026-01-15T08:30:00Z"
+                updatedAt: "2026-02-03T12:00:00Z"
+        '400':
+          description: Invalid UUID format
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                error: "ValidationError"
+                message: "El formato del ID es inválido."
+        '401':
+          description: Unauthorized (missing or invalid token)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                error: "Unauthorized"
+                message: "Token de autenticación inválido o expirado."
+        '404':
+          description: User not found or soft deleted
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                error: "UserNotFound"
+                message: "Usuario no encontrado."
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: "JWT access token obtained from /auth/login or /auth/refresh"
+
+  schemas:
+    UserDto:
+      type: object
+      required:
+        - id
+        - email
+        - firstName
+        - lastName
+        - phoneNumber
+        - dateOfBirth
+        - role
+        - createdAt
+        - updatedAt
+      properties:
+        id:
+          type: string
+          format: uuid
+          description: "User unique identifier"
+          example: "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        email:
+          type: string
+          format: email
+          description: "User email"
+          example: "maria.lopez@example.com"
+        firstName:
+          type: string
+          description: "User's first name"
+          example: "María"
+        lastName:
+          type: string
+          description: "User's last name"
+          example: "López"
+        phoneNumber:
+          type: string
+          pattern: '^\+[1-9]\d{1,14}$'
+          description: "Phone number (E.164 format)"
+          example: "+34687654321"
+        dateOfBirth:
+          type: string
+          format: date
+          description: "User's date of birth (ISO 8601)"
+          example: "1992-07-20"
+        role:
+          type: string
+          enum: [CANDIDATE, COMPANY, ADMIN]
+          description: "User role in the system"
+          example: "CANDIDATE"
+        createdAt:
+          type: string
+          format: date-time
+          description: "Account creation timestamp (UTC)"
+          example: "2026-01-15T08:30:00Z"
+        updatedAt:
+          type: string
+          format: date-time
+          description: "Last profile update timestamp (UTC)"
+          example: "2026-02-03T12:00:00Z"
+
+    ErrorResponse:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          description: "Error code (ValidationError, Unauthorized, UserNotFound)"
+          example: "UserNotFound"
+        message:
+          type: string
+          description: "Human-readable error message"
+          example: "Usuario no encontrado."

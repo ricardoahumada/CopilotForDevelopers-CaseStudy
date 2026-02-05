@@ -1,0 +1,214 @@
+openapi: 3.0.3
+info:
+  title: Portal Empleo API - Update Own Profile
+  version: 1.0.0
+  description: Endpoint for updating authenticated user's profile
+
+servers:
+  - url: http://localhost:5000
+    description: Development server
+  - url: https://api.portalempleo.com
+    description: Production server
+
+paths:
+  /api/v1/users/me:
+    put:
+      tags:
+        - Users
+      summary: Update authenticated user's profile
+      description: |
+        Updates the profile of the currently authenticated user.
+        Email is immutable and cannot be updated.
+        Requires valid JWT access token in Authorization header.
+      operationId: updateOwnProfile
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateUserDto'
+            example:
+              firstName: "Juan Carlos"
+              lastName: "Pérez García"
+              phoneNumber: "+34698765432"
+              dateOfBirth: "1995-03-15"
+      responses:
+        '200':
+          description: Profile updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserDto'
+              example:
+                id: "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+                email: "juan.perez@example.com"
+                firstName: "Juan Carlos"
+                lastName: "Pérez García"
+                phoneNumber: "+34698765432"
+                dateOfBirth: "1995-03-15"
+                role: "CANDIDATE"
+                createdAt: "2026-02-01T10:00:00Z"
+                updatedAt: "2026-02-04T15:45:00Z"
+        '400':
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationErrorResponse'
+              examples:
+                invalidPhone:
+                  value:
+                    error: "ValidationError"
+                    message: "One or more validation errors occurred."
+                    validationErrors:
+                      PhoneNumber:
+                        - "Debe cumplir formato E.164."
+                underage:
+                  value:
+                    error: "ValidationError"
+                    message: "One or more validation errors occurred."
+                    validationErrors:
+                      DateOfBirth:
+                        - "Debe ser mayor de 16 años."
+        '401':
+          description: Unauthorized (missing or invalid token)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                error: "Unauthorized"
+                message: "Token de autenticación inválido o expirado."
+        '404':
+          description: User not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                error: "UserNotFound"
+                message: "Usuario no encontrado."
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: "JWT access token obtained from /auth/login or /auth/refresh"
+
+  schemas:
+    UpdateUserDto:
+      type: object
+      required:
+        - firstName
+        - lastName
+        - phoneNumber
+        - dateOfBirth
+      properties:
+        firstName:
+          type: string
+          minLength: 1
+          maxLength: 100
+          description: "User's first name"
+          example: "Juan Carlos"
+        lastName:
+          type: string
+          minLength: 1
+          maxLength: 100
+          description: "User's last name"
+          example: "Pérez García"
+        phoneNumber:
+          type: string
+          pattern: '^\+[1-9]\d{1,14}$'
+          maxLength: 15
+          description: "Phone number (E.164 international format)"
+          example: "+34698765432"
+        dateOfBirth:
+          type: string
+          format: date
+          description: "User's date of birth (ISO 8601, must be 16+ years old)"
+          example: "1995-03-15"
+
+    UserDto:
+      type: object
+      required:
+        - id
+        - email
+        - firstName
+        - lastName
+        - phoneNumber
+        - dateOfBirth
+        - role
+        - createdAt
+        - updatedAt
+      properties:
+        id:
+          type: string
+          format: uuid
+          example: "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        email:
+          type: string
+          format: email
+          description: "User email (immutable)"
+          example: "juan.perez@example.com"
+        firstName:
+          type: string
+          example: "Juan Carlos"
+        lastName:
+          type: string
+          example: "Pérez García"
+        phoneNumber:
+          type: string
+          pattern: '^\+[1-9]\d{1,14}$'
+          example: "+34698765432"
+        dateOfBirth:
+          type: string
+          format: date
+          example: "1995-03-15"
+        role:
+          type: string
+          enum: [CANDIDATE, COMPANY, ADMIN]
+          example: "CANDIDATE"
+        createdAt:
+          type: string
+          format: date-time
+          example: "2026-02-01T10:00:00Z"
+        updatedAt:
+          type: string
+          format: date-time
+          example: "2026-02-04T15:45:00Z"
+
+    ValidationErrorResponse:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          example: "ValidationError"
+        message:
+          type: string
+          example: "One or more validation errors occurred."
+        validationErrors:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              type: string
+
+    ErrorResponse:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          example: "Unauthorized"
+        message:
+          type: string
+          example: "Token de autenticación inválido o expirado."

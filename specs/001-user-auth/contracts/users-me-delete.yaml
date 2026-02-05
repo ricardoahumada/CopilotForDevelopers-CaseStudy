@@ -1,0 +1,72 @@
+openapi: 3.0.3
+info:
+  title: Portal Empleo API - Delete Own Account
+  version: 1.0.0
+  description: Endpoint for soft deleting authenticated user's account
+
+servers:
+  - url: http://localhost:5000
+    description: Development server
+  - url: https://api.portalempleo.com
+    description: Production server
+
+paths:
+  /api/v1/users/me:
+    delete:
+      tags:
+        - Users
+      summary: Soft delete authenticated user's account
+      description: |
+        Performs soft delete on the authenticated user's account.
+        Sets IsDeleted = true, DeletedAt = current timestamp.
+        User data is preserved for auditing purposes.
+        Revokes all active refresh tokens to prevent further authentication.
+        User cannot login after soft deletion.
+      operationId: deleteOwnAccount
+      security:
+        - BearerAuth: []
+      responses:
+        '204':
+          description: Account deleted successfully (no content)
+        '401':
+          description: Unauthorized (missing or invalid token)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                error: "Unauthorized"
+                message: "Token de autenticación inválido o expirado."
+        '404':
+          description: User not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                error: "UserNotFound"
+                message: "Usuario no encontrado."
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: "JWT access token obtained from /auth/login or /auth/refresh"
+
+  schemas:
+    ErrorResponse:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          description: "Error code (Unauthorized, UserNotFound)"
+          example: "Unauthorized"
+        message:
+          type: string
+          description: "Human-readable error message"
+          example: "Token de autenticación inválido o expirado."

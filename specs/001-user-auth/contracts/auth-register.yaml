@@ -1,0 +1,190 @@
+openapi: 3.0.3
+info:
+  title: Portal Empleo API - User Registration
+  version: 1.0.0
+  description: Endpoint for new user registration with CANDIDATE role
+
+servers:
+  - url: http://localhost:5000
+    description: Development server
+  - url: https://api.portalempleo.com
+    description: Production server
+
+paths:
+  /api/v1/auth/register:
+    post:
+      tags:
+        - Authentication
+      summary: Register a new user
+      description: |
+        Creates a new user account with CANDIDATE role. Email must be unique.
+        Password is hashed using BCrypt with work factor 12.
+        User must be at least 16 years old.
+      operationId: registerUser
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterDto'
+            example:
+              email: "juan.perez@example.com"
+              password: "Secure123"
+              firstName: "Juan"
+              lastName: "Pérez"
+              phoneNumber: "+34612345678"
+              dateOfBirth: "1995-03-15"
+      responses:
+        '201':
+          description: User registered successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResultDto'
+              example:
+                accessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+                refreshToken: "f3d2a1b4c5e6d7f8g9h0i1j2k3l4m5n6o7p8q9r0"
+                expiresAt: "2026-02-04T15:30:00Z"
+        '400':
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationErrorResponse'
+              examples:
+                invalidEmail:
+                  value:
+                    error: "ValidationError"
+                    message: "One or more validation errors occurred."
+                    validationErrors:
+                      Email:
+                        - "Formato de email inválido."
+                weakPassword:
+                  value:
+                    error: "ValidationError"
+                    message: "One or more validation errors occurred."
+                    validationErrors:
+                      Password:
+                        - "Debe contener mayúscula."
+                        - "Debe contener dígito."
+                underage:
+                  value:
+                    error: "ValidationError"
+                    message: "One or more validation errors occurred."
+                    validationErrors:
+                      DateOfBirth:
+                        - "Debe ser mayor de 16 años."
+        '409':
+          description: Email already exists
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+              example:
+                error: "DuplicateEmail"
+                message: "El email ya está registrado en el sistema."
+
+components:
+  schemas:
+    RegisterDto:
+      type: object
+      required:
+        - email
+        - password
+        - firstName
+        - lastName
+        - phoneNumber
+        - dateOfBirth
+      properties:
+        email:
+          type: string
+          format: email
+          maxLength: 255
+          description: "User email (RFC 5322 format, unique)"
+          example: "juan.perez@example.com"
+        password:
+          type: string
+          minLength: 8
+          maxLength: 100
+          pattern: '^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$'
+          description: "Password (min 8 chars, uppercase, lowercase, digit)"
+          example: "Secure123"
+        firstName:
+          type: string
+          minLength: 1
+          maxLength: 100
+          description: "User's first name"
+          example: "Juan"
+        lastName:
+          type: string
+          minLength: 1
+          maxLength: 100
+          description: "User's last name"
+          example: "Pérez"
+        phoneNumber:
+          type: string
+          pattern: '^\+[1-9]\d{1,14}$'
+          maxLength: 15
+          description: "Phone number (E.164 international format)"
+          example: "+34612345678"
+        dateOfBirth:
+          type: string
+          format: date
+          description: "User's date of birth (ISO 8601 format, must be 16+ years old)"
+          example: "1995-03-15"
+
+    AuthResultDto:
+      type: object
+      required:
+        - accessToken
+        - refreshToken
+        - expiresAt
+      properties:
+        accessToken:
+          type: string
+          description: "JWT access token (valid for 60 minutes)"
+          example: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+        refreshToken:
+          type: string
+          description: "Refresh token (valid for 7 days)"
+          example: "f3d2a1b4c5e6d7f8g9h0i1j2k3l4m5n6o7p8q9r0"
+        expiresAt:
+          type: string
+          format: date-time
+          description: "Access token expiration timestamp (UTC)"
+          example: "2026-02-04T15:30:00Z"
+
+    ValidationErrorResponse:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          example: "ValidationError"
+        message:
+          type: string
+          example: "One or more validation errors occurred."
+        validationErrors:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              type: string
+          example:
+            Email:
+              - "Formato de email inválido."
+
+    ErrorResponse:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          example: "DuplicateEmail"
+        message:
+          type: string
+          example: "El email ya está registrado en el sistema."
