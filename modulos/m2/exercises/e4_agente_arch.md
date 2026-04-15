@@ -1,10 +1,8 @@
 # Agente architect
-
-Crea un agente especializado `@architect` con responsabilidadeas para definir:
-- Arquitectura general del proyecto
-- ADRs clave
-- Convenciones de codificación
-- Diagramas de arquitectura
+Crea un agente especializado `architect` con responsabilidadeas para:
+- Ddefinir diagramas de arquitectura en formato mermaid
+- Validar la sintaxis del diagrama
+- Validar el diagrama desde la perspectiva arquitectónica, asegurando que cumple con los principios y patrones definidos en la constitución del proyecto.
 
 Luego usa este agente para generar:
 - Un diagrama de clases para el proyecto
