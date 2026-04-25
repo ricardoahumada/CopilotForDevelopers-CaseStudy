@@ -1,4 +1,4 @@
-# Agente architect
+# Ejercicio: Agente architect
 Crea un agente especializado `architect` con responsabilidadeas para:
 - Ddefinir diagramas de arquitectura en formato mermaid
 - Validar la sintaxis del diagrama
